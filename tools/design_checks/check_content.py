@@ -45,6 +45,8 @@ def normalize(link):
     return (link.strip().replace('https://vlang.io/compare', '/compare')
             .replace('/#', '#').replace('@@', '@')
             .replace('vlang.veery.cc', 'vlang.veery.blog')
+            .replace('https://vox.sx', 'https://github.com/vox-browser/vox')
+            .replace('https://volt.im', 'https://www.volt.im/')
             # The old PayPal URL omitted HTML escaping for &currency_code.
             .replace('¤cy_code', '&currency_code'))
 

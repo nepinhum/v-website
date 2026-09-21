@@ -31,9 +31,10 @@ enum Lang {
 	ru
 	es
 	fr
+	ja
+	zh
 	// cn
 	// pt
-	// jp
 }
 
 // pub fn (app App) before_request() {
@@ -157,7 +158,9 @@ fn build_tr_menu(cur_lang Lang) string {
 		'<option value=en ${if cur_lang == .en { 'selected' } else { '' }}>EN</option>' +
 		'<option value=ru ${if cur_lang == .ru { 'selected' } else { '' }}>РУ</option>' +
 		'<option value=es ${if cur_lang == .es { 'selected' } else { '' }}>ES</option>' +
-		'<option value=fr ${if cur_lang == .fr { 'selected' } else { '' }}>FR</option></select>'
+		'<option value=fr ${if cur_lang == .fr { 'selected' } else { '' }}>FR</option>' +
+		'<option value=ja ${if cur_lang == .ja { 'selected' } else { '' }}>日本語</option>' +
+		'<option value=zh ${if cur_lang == .zh { 'selected' } else { '' }}>中文</option></select>'
 	/*
 	s := match cur_lang {
 		.ru { 'English' }

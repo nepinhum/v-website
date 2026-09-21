@@ -19,7 +19,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://vlang.io/img/v-logo.png" />
     <link rel="icon" href="/img/v-logo.png" />
-    <link rel="stylesheet" href="/app.css?v=20260920-10" />
+	<link rel="stylesheet" href="/app.css?v=20260921-12" />
 	<script src="/app.js?v=20260920-10" defer></script>
 	<title>%home_meta_title</title>
   </head>
@@ -37,10 +37,82 @@
 	>
 	<a class="skip-link" href="#main-content">%home_skip_to_content</a>
     <header class="site-header">
-      <a class="wordmark" href="/" aria-label="%home_shared_aab"
-        ><img src="/img/v-logo.png" width="30" height="30" alt="" />
-        </a
-      >
+	  <div class="header-brand">
+		<a class="wordmark" href="/" aria-label="%home_shared_aab"
+		  ><img src="/img/v-logo.png" width="30" height="30" alt="" />
+		</a>
+		<nav class="social-rail" aria-label="Social media">
+		  <a
+			class="social-link social-veery"
+			href="https://vlang.veery.blog"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="Veery blog"
+			title="Veery blog"
+			><img src="/img/veery.jpg" alt="" width="24" height="24"
+		  /></a>
+		  <a
+			class="social-link social-mastodon"
+			href="https://mas.to/&#64;vlang"
+			target="_blank"
+			rel="me noopener noreferrer"
+			aria-label="Mastodon"
+			title="Mastodon"
+			><img src="/img/mastodon.png" alt="" width="24" height="24"
+		  /></a>
+		  <a
+			class="social-link social-youtube"
+			href="https://www.youtube.com/c/VLang/videos"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="YouTube"
+			title="YouTube"
+			><svg viewBox="0 0 576 512" aria-hidden="true" focusable="false">
+			  <path fill="currentColor" d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3Z" />
+			  <path fill="#fff" d="m232.1 175.2 142.7 81.2-142.7 81.2Z" />
+			</svg></a>
+		  <a
+			class="social-link social-telegram"
+			href="https://t.me/vlang_en"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="Telegram"
+			title="Telegram"
+			><svg viewBox="0 0 496 512" aria-hidden="true" focusable="false">
+			  <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8Zm121.8 169.9-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5Z" />
+			</svg></a>
+		  <a
+			class="social-link social-twitch"
+			href="https://twitch.tv/v_language"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="Twitch"
+			title="Twitch"
+			><svg viewBox="0 0 512 512" aria-hidden="true" focusable="false">
+			  <path fill="currentColor" d="M391.2 103.5h-38.6v109.7h38.6ZM285 103h-38.6v109.8H285ZM120.8 0 24.3 91.4v329.2h115.8V512l96.5-91.4h77.3L487.7 256V0Zm328.3 237.8-77.2 73.1h-77.3l-67.6 64v-64h-86.9V36.6h308.9Z" />
+			</svg></a>
+		  <a
+			class="social-link social-discord"
+			href="https://discord.gg/vlang"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="Discord"
+			title="Discord"
+			><svg viewBox="0 0 448 512" aria-hidden="true" focusable="false">
+			  <path fill="currentColor" d="M297.2 243.2c0 15.6-11.5 28.4-26.1 28.4-14.3 0-26.1-12.8-26.1-28.4s11.5-28.4 26.1-28.4 26.1 12.8 26.1 28.4Zm-119.5-28.4c-14.6 0-26.1 12.8-26.1 28.4s11.8 28.4 26.1 28.4c14.6 0 26.1-12.8 26.1-28.4.3-15.6-11.5-28.4-26.1-28.4ZM448 52.7V512c-64.5-57-43.9-38.1-118.8-107.8l13.6 47.4H52.5C23.6 451.6 0 428 0 398.8V52.7C0 23.6 23.6 0 52.5 0h343C424.4 0 448 23.6 448 52.7Zm-73 242.7c0-82.4-36.9-149.2-36.9-149.2-36.9-27.6-71.9-26.9-71.9-26.9l-3.6 4.1c43.5 13.3 63.7 32.5 63.7 32.5-60.8-33.3-132.2-33.3-191.2-7.4-9.5 4.4-15.1 7.4-15.1 7.4s21.2-20.2 67.3-33.5l-2.6-3.1s-35.1-.8-71.9 26.9c0 0-36.9 66.8-36.9 149.2 0 0 21.5 37.1 78.1 38.9 0 0 9.5-11.5 17.2-21.2-32.5-9.7-44.8-30.2-44.8-30.2 3.8 2.6 10 6.1 10.5 6.4 43.2 24.2 104.6 32.1 159.7 9 9-3.3 18.9-8.2 29.4-15.1 0 0-12.8 21-46.3 30.5 7.7 9.7 16.9 20.7 16.9 20.7 56.6-1.8 78.3-38.9 78.3-38.9Z" />
+			</svg></a>
+		  <a
+			class="social-link social-x"
+			href="https://x.com/v_language"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="X"
+			title="X"
+			><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+			  <path fill="currentColor" d="M18.2 2.3h3.3l-7.2 8.3 8.5 11.2h-6.7L11 14.9l-6 6.9H1.7l7.7-8.8L1.3 2.3h6.8l4.7 6.2 5.4-6.2Zm-1.2 17.5h1.8L7.1 4.1h-2L17 19.8Z" />
+			</svg></a>
+		</nav>
+	  </div>
       <button
         class="menu-toggle"
         type="button"

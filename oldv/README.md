@@ -1,10 +1,9 @@
-# The V Programming Language Website
+# Previous V Programming Language Website
 
-https://vlang.io
-
-The redesigned site at https://new.vlang.io now lives at the repository root.
-See the [current README](../README.md) for local setup, demo media, content
-checks, and deployment.
+This directory preserves the previous website. The redesigned site deployed at
+https://vlang.io lives at the repository root. See the
+[current README](../README.md) for local setup, demo media, content checks, and
+deployment.
 
 *note: You can't run this site locally, because of proprietary backend, but you can preview the html file `preview.html` for styling css.*
 
