@@ -219,6 +219,63 @@ li code {
 .wordmark img {
   object-fit: contain;
 }
+.header-brand {
+  position: relative;
+  flex: none;
+}
+.social-rail {
+  position: absolute;
+  top: calc(100% + 26px);
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  transform: translateX(-50%);
+}
+.social-link {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  color: #949fad;
+  border-radius: 6px;
+  transition:
+    color 0.2s,
+    opacity 0.2s,
+    transform 0.2s;
+}
+.social-link:hover {
+  color: inherit;
+  opacity: 0.82;
+  transform: translateY(-1px);
+}
+.social-link img,
+.social-link svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.social-veery img {
+  border-radius: 50%;
+}
+.social-link.social-youtube {
+  color: #ff0000;
+}
+.social-link.social-telegram {
+  color: #229ed9;
+}
+.social-link.social-twitch {
+  color: #a970ff;
+}
+.social-link.social-discord {
+  color: #5865f2;
+}
+.social-link.social-x {
+  color: #edf0f5;
+}
 .wordmark-caption {
   display: block;
   font-size: 9px;
@@ -2152,6 +2209,26 @@ li code {
   .wordmark img {
     width: 25px;
     height: 25px;
+  }
+  .social-rail {
+    top: calc(100% + 22px);
+    gap: 10px;
+  }
+  .social-link {
+    width: 25px;
+    height: 25px;
+  }
+  .social-link img,
+  .social-link svg {
+    width: 21px;
+    height: 21px;
+  }
+  .hero {
+    padding-right: 16px;
+    padding-left: 56px;
+  }
+  .hero h1 {
+    font-size: clamp(40px, 12vw, 52px);
   }
   .header-actions select {
     width: 44px;

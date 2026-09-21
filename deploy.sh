@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
-# Build and deploy to the existing new.vlang.io service. No database migrations.
+# Build and deploy the production vlang.io website. No database migrations.
 set -euo pipefail
 site_dir="$(cd "$(dirname "$0")" && pwd)"
 traffic_parent="${TRAFFIC_MODULE_PARENT:-$(dirname "$site_dir")}"
 remote_host="${DEPLOY_HOST:-vlang}"
+# The production origin retains these legacy internal path and service names.
+# Public deployment and verification always target https://vlang.io/.
 remote_dir="/var/www/new.vlang.io"
 release_id="$(date -u +%Y%m%d-%H%M%S)"
-build_dir="$(mktemp -d "${TMPDIR:-/tmp}/newvlang-release.XXXXXX")"
+build_dir="$(mktemp -d "${TMPDIR:-/tmp}/vlang-release.XXXXXX")"
 trap 'rm -rf "$build_dir"' EXIT
 ssh_options=(-o BatchMode=yes -o ConnectTimeout=15 -o ServerAliveInterval=15)
 
@@ -25,7 +27,7 @@ set -euo pipefail
 site_dir="$1"
 release_id="$2"
 cd "$site_dir"
-backup="/var/backups/newvlang-$release_id.tar.gz"
+backup="/var/backups/vlang-$release_id.tar.gz"
 mkdir -p /var/backups
 tar -czf "$backup" website2_v static translations templates main.v index.html v.mod
 rollback() {
@@ -54,11 +56,11 @@ curl --fail --silent -H 'Host: vlang.io' http://127.0.0.1/stats228 >/dev/null
 systemctl is-active --quiet newvlang
 trap - ERR
 rm -rf ".release-$release_id"
-echo "Deployed new.vlang.io. Rollback backup: $backup"
+echo "Deployed vlang.io. Rollback backup: $backup"
 REMOTE
-curl --fail --silent --show-error https://new.vlang.io/ -o "$build_dir/live.html"
+curl --fail --silent --show-error https://vlang.io/ -o "$build_dir/live.html"
 if ! grep -q 'Less complexity' "$build_dir/live.html"; then
   echo 'The origin is healthy, but the public homepage is not serving the release yet.' >&2
   exit 1
 fi
-echo 'Verified https://new.vlang.io/'
+echo 'Verified https://vlang.io/'

@@ -1,5 +1,5 @@
 [Unit]
-Description=newvlang
+Description=V language website (vlang.io)
 StartLimitIntervalSec=0
 
 [Service]

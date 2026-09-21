@@ -1,4 +1,4 @@
-# new.vlang.io
+# vlang.io
 
 The dark V website is a server-rendered Veb application. It needs no JavaScript
 framework or frontend build step. CSS and a small progressive-enhancement script
@@ -60,7 +60,7 @@ hardware, build flags, and uncut elapsed time visible.
 code, tables, screenshots, and videos. Expanded feature groups remain addressable
 by URL fragments. Resources, books, merchandise, five editor integrations, all
 six sponsors, donation links, community links, original credits, and English,
-Russian, Spanish, and French language selection remain available. The previous
+Russian, Spanish, French, Japanese, and Chinese language selection remain available. The previous
 site is preserved in `oldv/`.
 
 Check a running instance against the old site's complete link inventory:
@@ -81,10 +81,12 @@ media, translations, local assets, and accessibility with axe-core.
 
 The script cross-compiles a Linux x86_64 production binary locally, stages the
 complete release through the existing `vlang` SSH alias, saves a backup under
-`/var/backups/newvlang-<timestamp>.tar.gz`, and restarts `newvlang.service`.
-It verifies the homepage, comparison page, and statistics route and restores the
-previous release if an origin health check fails. It then checks the public
-HTTPS homepage. It does not change nginx, service configuration, or the database.
+`/var/backups/vlang-<timestamp>.tar.gz`, and restarts the production origin
+service (whose legacy internal name is `newvlang.service`). It verifies the
+homepage, comparison page, and statistics route and restores the previous
+release if an origin health check fails. It then checks the public
+`https://vlang.io/` homepage. It does not change nginx, service configuration,
+or the database.
 `DEPLOY_HOST` and `TRAFFIC_MODULE_PARENT` can override the SSH alias and sibling
 module parent. The deployed service must run with its site directory as its
 working directory so translations load.
