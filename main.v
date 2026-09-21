@@ -161,8 +161,8 @@ fn build_tr_menu(cur_lang Lang) string {
 		'<option value=es ${if cur_lang == .es { 'selected' } else { '' }}>ES</option>' +
 		'<option value=fr ${if cur_lang == .fr { 'selected' } else { '' }}>FR</option>' +
 		'<option value=ja ${if cur_lang == .ja { 'selected' } else { '' }}>日本語</option>' +
-		'<option value=zh ${if cur_lang == .zh { 'selected' } else { '' }}>中文</option></select>' +
-		'<option value=tr ${if cur_lang == .tr { 'selected' } else { '' }}>TR</option>'
+		'<option value=zh ${if cur_lang == .zh { 'selected' } else { '' }}>中文</option>' +
+		'<option value=tr ${if cur_lang == .tr { 'selected' } else { '' }}>TR</option></select>'
 	/*
 	s := match cur_lang {
 		.ru { 'English' }
