@@ -1,0 +1,1720 @@
+examples
+Örnekler
+-----
+home_meta_title
+V — V Programlama Dili
+-----
+home_skip_to_content
+İçeriğe geç
+-----
+home_nav_language
+Dil
+-----
+home_nav_stdlib_docs
+Standart Kütüphane
+-----
+home_nav_ecosystem
+Ekosistem
+-----
+home_nav_community
+Topluluk
+-----
+home_language_label
+Dil
+-----
+home_github_sponsors
+GitHub Sponsorları
+-----
+documentation
+Dokümantasyon
+-----
+tutorials
+Eğitimler
+-----
+modules
+Modüller
+-----
+faq
+SSS
+-----
+playground
+Playground
+-----
+built_in_v
+V ile geliştirildi
+-----
+the_v_lang
+V Programlama Dili
+-----
+v_slogan
+Bakımı kolay yazılımlar geliştirmek için basit, hızlı, güvenli ve derlenen bir dil
+-----
+includes_binaries
+3 sistem için çalıştırılabilir dosyaları içerir
+-----
+install_source
+V'yi kaynak kodundan da kurabilirsiniz
+-----
+couple_seconds
+bu işlem birkaç saniye sürer
+-----
+wip_info
+V, erken aşamada ve aktif olarak geliştirilen bir dildir.
+Üzerinde hâlâ çalışılan özellikler $wip ile işaretlidir.
+<br>
+Bu sayfadaki ve dokümantasyondaki diğer her şey uygulanmış ve açık kaynak olarak yayımlanmıştır.
+<p>
+Aralık 2019 için planlanan V 1.0 sürümüne gelindiğinde hiçbir $wip kalmayacaktır.
+-----
+forum
+Forum
+-----
+blog
+Blog
+-----
+fast_compilation
+Hızlı derleme
+-----
+safety
+Güvenlik
+-----
+performance
+Performans
+-----
+simple_language_for_maintainable_programs
+Bakımı kolay programlar geliştirmek için basit bir dil
+-----
+you_can_learn
+Tüm dili bir hafta sonu boyunca
+<a target=_blank href='https://github.com/vlang/v/blob/master/doc/docs.md'>dokümantasyonu</a> okuyarak öğrenebilirsiniz;
+çoğu durumda bir işi yapmanın yalnızca tek bir yolu vardır.
+-----
+this_results_in_simple
+Bunun sonucunda basit, okunabilir ve bakımı kolay kod ortaya çıkar.
+-----
+despite_being_simple
+Basit olmasına rağmen V geliştiriciye oldukça fazla güç verir ve sistem programlamadan web ve oyun geliştirmeye, GUI, mobil, bilimsel hesaplama, gömülü sistemler ve araç geliştirmeye kadar hemen her alanda kullanılabilir.
+-----
+v_is_similar_to_go
+V, Go’ya oldukça benzer. Go biliyorsanız V’nin yaklaşık %80’ini zaten biliyorsunuz demektir.
+V’nin Go’ya göre geliştirdiği noktalar: <a target=_blank href='https://vlang.io/compare#go'>vlang.io/compare#go</a>.
+-----
+download_for_macos
+macOS için indir
+-----
+download_for_windows
+Windows için indir
+-----
+download_for_linux
+Linux için indir
+-----
+zero_deps
+Sıfır bağımlılığa sahip 400 KB'lık derleyici
+-----
+c_translation
+C/C++ çevirisi
+-----
+introduction
+Giriş
+-----
+comments
+Yorumlar
+-----
+functions
+Fonksiyonlar
+-----
+variables
+Değişkenler
+-----
+basic_types
+Temel türler
+-----
+strings
+Strings
+-----
+arrays
+Diziler
+-----
+maps
+Eşlemler
+-----
+if
+if
+-----
+in_op
+in operatörü
+-----
+for_loop
+for döngüsü
+-----
+switch
+switch
+-----
+structs
+Yapılar
+-----
+access_mod
+Erişim belirleyicileri
+-----
+methods
+Metotlar
+-----
+pure_fns
+Saf fonksiyonlar
+-----
+high_fns
+Yüksek dereceli fonksiyonlar
+-----
+constants
+Sabitler
+-----
+modules
+Modüller
+-----
+interfaces
+Arayüzler
+-----
+enums
+Enum
+-----
+optionals_and_errors
+Option türleri ve hata yönetimi
+-----
+generics
+Generics
+-----
+concurrency
+Eşzamanlılık
+-----
+decoding_json
+JSON çözümleme
+-----
+testing
+Test
+-----
+memory_management
+Bellek yönetimi
+-----
+fast_comp1
+V, CPU çekirdeği başına saniyede yaklaşık 100 bin ile 1,2 milyon satır kod derler.
+-----
+fast_comp2
+V, kendi kaynak kodunu 0,15 - 0,6 saniyede derler.
+-----
+fast_comp3
+
+-----
+fast_comp4
+
+-----
+no_null
+null yok
+-----
+latest_news
+Son haberler ve
+-----
+blog_posts
+blog yazıları
+-----
+what_developers_say
+Geliştiriciler V hakkında ne diyor?
+-----
+v_review_1
+V geliştirme ekibi harika bir iş çıkarıyor. Bir dilin bu kadar hızlı geliştiğini hiç görmemiştim;
+sanırım hiç uyumuyorsunuz. V’nin basit ve temiz bir dil olarak kalmasını ve parlak bir geleceğe sahip olmasını umuyorum.
+Tüm emeğiniz için teşekkürler.
+-----
+v_review_2
+Beni en çok şaşırtan şey, bu kadar çok şeyin "öylece, uğraştırmadan çalışması".
+Channel’lar ve closure’lar, C fonksiyonları için asenkron callback’ler yazmayı inanılmaz kolaylaştırdı.
+Bunun için teşekkürler! 😄
+-----
+v_review_3
+Yaklaşık 30 yıldır programlamayla uğraşıyorum. Yıllar önce biraz C/C++, VB ve bolca Delphi kullandım.
+Sonra 15 yıldan uzun süre PHP/Ruby; ayrıca Bash ve Python kullandım. Yakın zamanda çeşitli nedenlerle derlenen bir dil kullanmaya başlamak istedim; Rust, Go ve birkaç dile daha baktım. Birkaç hafta önce V’ye rastladım ve öğrenmesinin ne kadar kolay olduğuna çok şaşırdım. V ile kod yazmaktan gerçekten keyif alıyorum ve şimdiden üretken olduğumu hissediyorum. Hatta artık küçük bir proje geliştirmeyi düşünüyorum.
+-----
+partners_sponsors
+İş Ortakları ve Sponsorlar
+-----
+become_sponsor_via_github
+GitHub Sponsors üzerinden sponsor olun
+-----
+is_v_still_fast
+V hâlâ hızlı mı?
+-----
+built_in_v
+V ile geliştirildi
+-----
+book1
+V hakkında basılan ilk kitap!
+-----
+book2
+V hakkında basılan ikinci kitap!
+-----
+home_index_aab
+V Programlama Dili
+-----
+home_index_aac
+Basit, hızlı, güvenli. Bakımı kolay yazılımlar için.
+-----
+home_index_aad
+github.com/vlang/v
+-----
+home_index_aae
+★ 38 bin
+-----
+home_index_aaf
+macOS (Apple Silicon)
+-----
+home_index_aag
+11.4 MB
+-----
+home_index_aah
+Diğer V indirme seçenekleri
+-----
+home_index_aai
+macOS
+-----
+home_index_aaj
+Apple Silicon
+-----
+home_index_aba
+Intel
+-----
+home_index_abb
+Linux
+-----
+home_index_abc
+x86_64
+-----
+home_index_abd
+Windows
+-----
+home_index_abe
+Kaynak kodundan derle
+-----
+home_index_abf
+V iş başında
+-----
+home_index_abg
+V 0.4.8, MacBook Air M3 üzerinde kendini 0,48 saniyede derliyor
+-----
+home_index_abh
+Ultra hızlı derleme
+-----
+home_index_abi
+V saniyede yaklaşık 100 bin LOC (Clang backend) ve yaklaşık 700 bin LOC (arm64 ve tcc backend’leri) derler.
+-----
+home_index_abj
+(Apple M5, optimizasyonsuz)
+-----
+home_index_aca
+V, V ile yazılmıştır ve M5 üzerinde kendini 0,5 saniyede derler.
+-----
+home_index_acb
+Kendiniz deneyin:
+-----
+home_index_acc
+C'den V'ye çevrildikten sonra çalışan orijinal DOOM
+-----
+home_index_acd
+DOOM çeviri videosunu oynat
+-----
+home_index_ace
+C'nin V'ye dönüşümünü izleyin
+-----
+home_index_acf
+C → V → DOOM
+-----
+home_index_acg
+Eski usul bir oyun.
+-----
+home_index_ach
+Yeni olanaklar.
+-----
+home_index_aci
+DOOM'u C'den V'ye çevirip bir saniyeden kısa sürede derlemek:
+-----
+home_index_acj
+Çevrilmiş kodu burada okuyabilirsiniz:
+-----
+home_index_ada
+github.com/vlang/doom ↗
+-----
+home_index_adb
+Çalışan bir V uygulaması, kodu düzenlendiği anda değişir
+-----
+home_index_adc
+Düzenle. Kaydet. Anında yayında.
+-----
+home_index_add
+Kodu değiştirin.
+-----
+home_index_ade
+Akışı bozmayın.
+-----
+home_index_adf
+Uygulamanın durumunu kaybetmeden anında yeniden yükleme. Fikirden ekranda gördüğünüz sonuca daha kısa bir yol.
+-----
+home_index_adg
+Anında yeniden yüklemeyi keşfedin ↗
+-----
+home_index_adh
+Veb’in tarayıcıda anında yeniden yüklenmesini gösteren demo videosu için önizleme
+-----
+home_index_adi
+localhost:8080
+-----
+home_index_adj
+CANLI
+-----
+home_index_aea
+Demo videosu hazırlanıyor
+-----
+home_index_aeb
+Değişiklikler
+-----
+home_index_aec
+anında görünür.
+-----
+home_index_aed
+Kaydettikten sonra güncellendi
+-----
+home_index_aee
+Veb · Tarayıcıda anında yeniden yükleme
+-----
+home_index_aef
+Kodu kaydedin.
+-----
+home_index_aeg
+Siteyi görün.
+-----
+home_index_aeh
+Çalışan siteler her kayıttan sonra tarayıcıda anında yenilenir. Yeniden derleme, yeniden çalıştırma veya tarayıcıyı elle yenileme gerekmez.
+-----
+home_index_aei
+Başka bir işletim sisteminden Windows uygulaması çapraz derleme
+-----
+home_index_aej
+Tek dil. Daha fazla platform.
+-----
+home_index_afa
+Burada derleyin.
+-----
+home_index_afb
+Orada çalıştırın.
+-----
+home_index_afc
+Başka bir işletim sistemi için yerel uygulamalar çapraz derleyin. Araçlarınızı yanınızda götürün.
+-----
+home_index_afd
+Çapraz derlemeyi keşfedin ↗
+-----
+home_index_afe
+V ile yazılmış Vinix işletim sistemi, yerel uygulamalarla grafik masaüstü çalıştırırken
+-----
+home_index_aff
+Çekirdekten başlayarak.
+-----
+home_index_afg
+Evet, başlı başına bir
+-----
+home_index_afh
+işletim sistemi.
+-----
+home_index_afi
+Vinix ile tanışın. V ile yazılmış, sadeliği donanıma kadar taşıyan modern bir işletim sistemi.
+-----
+home_index_afj
+Vinix'i keşfedin ↗
+-----
+home_index_aga
+Bir demo seçin
+-----
+home_index_agb
+DOOM'u C2V ile çevirme
+-----
+home_index_agc
+Anında yeniden yükleme
+-----
+home_index_agd
+Veb’i tarayıcıda anında yeniden yükleme
+-----
+home_index_age
+Çapraz derleme
+-----
+home_index_agf
+Vinix çekirdeği ve işletim sistemi
+-----
+home_shared_aab
+V programlama dili ana sayfası
+-----
+home_shared_aac
+Menü
+-----
+home_shared_aad
+Ana navigasyon
+-----
+home_shared_aae
+V'yi Patreon'da destekleyin
+-----
+home_shared_aaf
+İyi bir topluluğun içindesiniz
+-----
+home_shared_aag
+Bir dil. Bir topluluk.
+-----
+home_shared_aah
+Discord'a katılın ↗
+-----
+home_shared_aai
+Topluluğunuzu bulun.
+-----
+home_shared_aaj
+Soru sorun, geliştirdiğiniz şeyi paylaşın veya sırada ne olacağını birlikte şekillendirin.
+-----
+home_shared_aba
+Discord ↗
+-----
+home_shared_abb
+X / Twitter ↗
+-----
+home_shared_abc
+Mastodon ↗
+-----
+home_shared_abd
+Telegram ↗
+-----
+home_shared_abe
+YouTube ↗
+-----
+home_shared_abf
+Twitch ↗
+-----
+home_shared_abg
+Veery ↗
+-----
+home_shared_abh
+Favori editörünüzde de.
+-----
+home_shared_abi
+Sözdizimi renklendirmesini ve dil araçlarını zaten kullandığınız editöre taşıyın.
+-----
+home_shared_abj
+VS Code
+-----
+home_shared_aca
+IntelliJ
+-----
+home_shared_acb
+Vim
+-----
+home_shared_acc
+Emacs
+-----
+home_shared_acd
+Sublime Text
+-----
+home_shared_ace
+Biraz daha derine inin.
+-----
+home_shared_acf
+Getting Started with V Programming kitap kapağı
+-----
+home_shared_acg
+Getting Started with V Programming
+-----
+home_shared_ach
+V hakkında basılan ilk kitap ↗
+-----
+home_shared_aci
+Randomness Revisited using V kitap kapağı
+-----
+home_shared_acj
+Randomness Revisited
+-----
+home_shared_ada
+V hakkında basılan ikinci kitap ↗
+-----
+home_shared_adb
+V mağazasını ziyaret edin ↗
+-----
+home_shared_adc
+Açık kaynak. Ortak bir hedef.
+-----
+more_features
+Daha Fazla Özellik
+-----
+home_shared_add
+Huly
+-----
+home_shared_ade
+ThreeFold
+-----
+home_shared_adf
+Syndica
+-----
+home_shared_adg
+October Swimmer
+-----
+home_shared_adh
+MX
+-----
+home_shared_adi
+What Lab
+-----
+home_shared_adj
+V
+-----
+home_shared_aea
+Küçük bir dil.
+-----
+home_shared_aeb
+Sınırsız üretme olanağı.
+-----
+home_shared_aec
+Öğren
+-----
+home_shared_aed
+Standart kütüphane
+-----
+home_shared_aee
+Keşfet
+-----
+home_shared_aef
+V paket yöneticisi
+-----
+home_shared_aeg
+Dilleri karşılaştır
+-----
+home_shared_aeh
+SSS
+-----
+home_shared_aei
+Takip edin
+-----
+home_shared_aej
+Değişiklik günlüğü
+-----
+home_shared_afa
+Yol haritası
+-----
+home_shared_afb
+RFC'ler
+-----
+home_shared_afc
+github.com/vlang/v
+-----
+home_shared_afd
+V'yi destekleyin
+-----
+home_shared_afe
+GitHub Sponsors
+-----
+home_shared_aff
+Patreon
+-----
+home_shared_afg
+PayPal
+-----
+home_shared_afh
+Ürünler
+-----
+home_shared_afi
+İletişime geçin
+-----
+home_shared_afj
+Sevgiyle, açık kaynak.
+-----
+home_shared_aga
+MIT Lisansı
+-----
+home_shared_agb
+Başa dön ↑
+-----
+home_content_aab
+Dili keşfedin
+-----
+home_content_aac
+Merhaba, geliştiriciler
+-----
+home_content_aad
+Dosya oku ve filtrele
+-----
+home_content_aae
+HTTP + zaman
+-----
+home_content_aaf
+JSON kodlama ve çözme
+-----
+home_content_aag
+Eşlem + benzersiz
+-----
+home_content_aah
+Örneği kopyala
+-----
+home_content_aai
+"Merhaba, geliştiriciler" kodu
+-----
+home_content_aaj
+Dosya okuma ve filtreleme kodu
+-----
+home_content_aba
+HTTP + zaman kodu
+-----
+home_content_abb
+JSON kodlama ve çözme kodu
+-----
+home_content_abc
+Eşlem + benzersiz kodu
+-----
+home_content_abd
+V'yi kaynak kodundan kur
+-----
+home_content_abe
+Kurulum komutlarını kopyala
+-----
+home_content_abf
+Kopyala ⧉
+-----
+home_content_abg
+Windows'ta
+-----
+home_content_abh
+yerine
+-----
+home_content_abi
+Ardından şunu deneyin
+-----
+home_content_abj
+Tasarım gereği basit. Varsayılan olarak güçlü.
+-----
+home_content_aca
+Dil yolunuza çıkmaz.
+-----
+home_content_acb
+Tüm dili,
+-----
+home_content_acc
+dokümantasyonu
+-----
+home_content_acd
+bir hafta sonu boyunca okuyarak öğrenebilirsiniz; çoğu durumda bir işi yapmanın yalnızca tek bir yolu vardır.
+-----
+home_content_ace
+Bunun sonucunda basit, okunabilir ve bakımı kolay kod ortaya çıkar.
+-----
+home_content_acf
+Basit olmasına rağmen V geliştiriciye oldukça fazla güç verir ve sistem programlamadan web ve oyun geliştirmeye, GUI, mobil, bilimsel hesaplama, gömülü sistemler ve araç geliştirmeye kadar hemen her alanda kullanılabilir.
+-----
+home_content_acg
+V, Go’ya oldukça benzer. Go biliyorsanız V’nin yaklaşık %80’ini zaten biliyorsunuz demektir. V’nin Go’ya göre geliştirdiği noktalar:
+-----
+home_content_ach
+vlang.io/compare#go
+-----
+home_content_aci
+Güvenlik
+-----
+home_content_acj
+Sınır denetimi
+-----
+home_content_ada
+Tanımsız değer yok
+-----
+home_content_adb
+Değişken gölgeleme yok
+-----
+home_content_adc
+Değişkenler varsayılan olarak değiştirilemez
+-----
+home_content_add
+Yapılar varsayılan olarak değiştirilemez
+-----
+home_content_ade
+Option/Result ve zorunlu hata denetimleri
+-----
+home_content_adf
+Sum types
+-----
+home_content_adg
+Generics
+-----
+home_content_adh
+Fonksiyon argümanları varsayılan olarak değiştirilemez; değiştirilebilir argümanlar çağrıda işaretlenmelidir
+-----
+home_content_adi
+null yok
+-----
+home_content_adj
+(unsafe kodda kullanılabilir)
+-----
+home_content_aea
+Tanımsız davranış yok
+-----
+home_content_aeb
+yeni!
+-----
+home_content_aec
+Global değişken yok
+-----
+home_content_aed
+(kernel gibi düşük seviyeli uygulamalarda bir bayrakla etkinleştirilebilir)
+-----
+home_content_aee
+Performans ve hızlı derleme
+-----
+home_content_aef
+Performans
+-----
+home_content_aeg
+Ek maliyet olmadan C interop
+-----
+home_content_aeh
+En az düzeyde bellek ayırma
+-----
+home_content_aei
+Çalışma zamanı yansıması olmadan yerleşik serileştirme
+-----
+home_content_aej
+Harici bağımlılık olmadan yerel binary’lere derlenir: basit bir web sunucusu yalnızca yaklaşık 250 KB
+-----
+home_content_afa
+Eşdeğer kodda C kadar hızlıdır (V’nin ana backend’i insan tarafından okunabilir C üretir).
+-----
+home_content_afb
+V’nin güvenlik özellikleri bir miktar ek maliyet oluşturur (örneğin dizi sınır denetimi ve GC ile bellek serbest bırakma); ancak performans daha önemli olduğunda bu özellikler devre dışı bırakılabilir veya atlanabilir.
+-----
+home_content_afc
+Hızlı derleme
+-----
+home_content_afd
+V saniyede yaklaşık 80 bin (Clang backend) ve yaklaşık 400 bin (x64 ve tcc backend’leri) satır kod derler.
+-----
+home_content_afe
+(Apple M2, optimizasyonsuz)
+-----
+home_content_aff
+V, V ile yazılmıştır ve kendini bir saniyeden kısa sürede derler (
+-----
+home_content_afg
+MacBook Air M3’te 0,33 sn
+-----
+home_content_afh
+Derleyicinin büyük bölümü hâlâ tek iş parçacığında çalışıyor; dolayısıyla gelecekte 2-3 kat daha hızlı olacak!
+-----
+home_content_afi
+Küçük ve derlemesi kolay bir derleyici
+-----
+home_content_afj
+V, C’ye çevrilmiş kaynak kodu basit bir komutla derleyerek bir saniyeden kısa sürede bootstrap olabilir:
+-----
+home_content_aga
+Kütüphane veya bağımlılık gerekmez.
+-----
+home_content_agb
+Derleyicilerin karşılaştırması:
+-----
+home_content_agc
+Alan
+-----
+home_content_agd
+Derleme süresi
+-----
+home_content_age
+Go
+-----
+home_content_agf
+525 MB
+-----
+home_content_agg
+1m 33s
+-----
+home_content_agh
+Rust
+-----
+home_content_agi
+30 GB
+-----
+home_content_agj
+45m
+-----
+home_content_aha
+GCC
+-----
+home_content_ahb
+8 GB
+-----
+home_content_ahc
+50m
+-----
+home_content_ahd
+Clang
+-----
+home_content_ahe
+90 GB
+-----
+home_content_ahf
+60m
+-----
+home_content_ahg
+Swift
+-----
+home_content_ahh
+70 GB
+-----
+home_content_ahi
+90m
+-----
+home_content_ahj
+V
+-----
+home_content_aia
+< 20 MB
+-----
+home_content_aib
+<1s
+-----
+home_content_aic
+Esnek bellek yönetimi
+-----
+home_content_aid
+V; değer türleri, string buffer’ları ve basit, gereksiz soyutlamalardan uzak bir kod tarzıyla en baştan gereksiz bellek ayırmalarından kaçınır.
+-----
+home_content_aie
+V'de belleği yönetmenin 4 yolu vardır.
+-----
+home_content_aif
+Varsayılan seçenek, minimal ve iyi performans gösteren bir tracing GC’dir.
+-----
+home_content_aig
+İkinci yöntem autofree’dir; şu seçenekle etkinleştirilebilir:
+-----
+home_content_aih
+. Nesnelerin çoğunu (yaklaşık %90-100) yönetir: derleyici, gerekli free çağrılarını derleme sırasında otomatik olarak ekler. Geriye kalan küçük bölüm GC aracılığıyla serbest bırakılır. Geliştiricinin kodunda herhangi bir değişiklik yapması gerekmez. Python, Go veya Java’daki gibi “öylece çalışır”; ancak her şeyi izleyen ağır bir GC ya da her nesne için pahalı bir RC yoktur. Autofree hâlâ deneyseldir ve üretim kullanımına hazır değildir; V 1.0 için tamamlanması planlanmaktadır.
+-----
+home_content_aii
+Daha fazla düşük seviye kontrol isteyen geliştiriciler belleği elle yönetebilir:
+-----
+home_content_aij
+Arena allocation şu şekilde kullanılabilir:
+-----
+home_content_aja
+V’nin autofree demosu. Tüm nesneler derleme sırasında serbest bırakılıyor. Ved editörü, 8 MB’lık bir dosyayı bellek sızıntısı olmadan işliyor:
+-----
+home_content_ajb
+V autofree demosu — YouTube
+-----
+home_content_ajc
+C’den V’ye çevir
+-----
+home_content_ajd
+V, C ile yazılmış projenizin tamamını V’ye çevirebilir; modüller sayesinde güvenlik, basitlik ve daha hızlı derleme sunabilir.
+-----
+home_content_aje
+Bir
+-----
+home_content_ajf
+blog yazısı/eğitim
+-----
+home_content_ajg
+DOOM’un çevrilmesini anlatıyor.
+-----
+home_content_ajh
+C++'tan V'ye çeviri henüz erken aşamadadır.
+-----
+home_content_aji
+Anında yeniden yükleme
+-----
+home_content_ajj
+Değişiklikleri yeniden derlemeden anında görün.
+-----
+home_content_baa
+Ayrıca her derlemeden sonra üzerinde çalıştığınız duruma yeniden dönmek zorunda kalmadığınız için geliştirme sürenizden değerli dakikalar kazanabilirsiniz.
+-----
+home_content_bab
+github.com/.../examples/hot_reload
+-----
+home_content_bac
+Güçlü bir grafik kütüphanesi
+-----
+home_content_bad
+Çapraz platform çizim kütüphanesi
+-----
+home_content_bae
+, 2D uygulamaları render etmek için OpenGL/Metal/DirectX 11 kullanır.
+-----
+home_content_baf
+Ayrıca geliştirilmekte olan bir 3D motoru da var ve şu özellikleri şimdiden sunuyor:
+-----
+home_content_bag
+Dokularla karmaşık 3D nesneleri yükleme
+-----
+home_content_bah
+Kamera (hareket etme, etrafa bakma)
+-----
+home_content_bai
+İskelet animasyonu
+-----
+home_content_baj
+Grafik kütüphanesinin çalışmasına basit bir örnek:
+-----
+home_content_bba
+tetris.v
+-----
+home_content_bbb
+3D örnekleri için şuna bakın:
+-----
+home_content_bbc
+bu örnek
+-----
+home_content_bbd
+Motor ekran görüntüsü
+-----
+home_content_bbe
+Hafif ve hızlı çapraz platform GUI kütüphanesi
+-----
+home_content_bbf
+V UI ile yerel arayüz uygulamaları geliştirin. Çapraz platform uygulamaları hızlıca geliştirmek için artık bir tarayıcı gömmeniz gerekmez.
+-----
+home_content_bbg
+V, Qt ve Flutter’a benzer biçimde özel çizim kullanan, ancak yerel GUI toolkit’lerine mümkün olduğunca benzeyen bir UI modülüne sahiptir.
+-----
+home_content_bbh
+SwiftUI ve React Native’e benzer deklaratif bir API’ye sahiptir; Windows, Linux, macOS ve Android üzerinde çalışır.
+-----
+home_content_bbi
+Yakında:
+-----
+home_content_bbj
+Yerel GUI uygulamaları geliştirmek için Delphi benzeri görsel editör
+-----
+home_content_bca
+iOS desteği
+-----
+home_content_bcb
+github.com/vlang/ui
+-----
+home_content_bcc
+V ve V UI ile geliştirilmiş 3 MB’lık Slack/Discord istemcisi Volt:
+-----
+home_content_bcd
+Screen3
+-----
+home_content_bce
+Kolay çapraz derleme
+-----
+home_content_bcf
+Yazılımınızı çapraz derlemek için yalnızca şunu çalıştırın:
+-----
+home_content_bcg
+veya
+-----
+home_content_bch
+. GUI ve grafik uygulamalarında bile ek bir adıma gerek yoktur!
+-----
+home_content_bci
+(Şimdilik macOS yazılımları yalnızca macOS üzerinde derlenebilir.)
+-----
+home_content_bcj
+macOS üzerindeki V ile Windows için V derlemek ve ardından ortaya çıkan v.exe dosyasını bir Windows sanal makinesinde test etmek:
+-----
+home_content_bda
+Sorunsuz dağıtım ve bağımlılık yönetimi · Her yerde çalıştırın
+-----
+home_content_bdb
+Sorunsuz dağıtım ve bağımlılık yönetimi
+-----
+home_content_bdc
+Projeniz ne kadar büyük olursa olsun derlemek için yapmanız gereken tek şey şunu çalıştırmaktır:
+-----
+home_content_bdd
+Derleme ortamı, makefile, header, sanal ortam vb. yok.
+-----
+home_content_bde
+Harici bağımlılık olmadan, hedef platformlar için çapraz derlendiği sürece tüm işletim sistemlerinde çalışacak tek bir binary elde edersiniz.
+-----
+home_content_bdf
+Bu binary, işletim sisteminin sağladığı ve dinamik olarak linklenen sistem kütüphanesi (libc) dışında kendi kendine yeterlidir.
+-----
+home_content_bdg
+Linux’ta tamamen statik binary’ler üretmek için şunu kullanabilirsiniz:
+-----
+home_content_bdh
+V ile yazılmış merkezi paket yöneticisi vpm üzerinden yeni kütüphaneler kurmak şunu çalıştırmak kadar basittir:
+-----
+home_content_bdi
+Her yerde çalıştırın
+-----
+home_content_bdj
+V, insan tarafından okunabilir C üretebilir; böylece GCC ve Clang’in geniş platform desteği ile optimizasyonlarından yararlanırsınız. (
+-----
+home_content_bea
+optimize build’ler oluşturmak için kullanın.)
+-----
+home_content_beb
+Doğrudan makine kodu üretimi olgunlaştıktan sonra bile C üretimi her zaman bir seçenek olarak kalacaktır.
+-----
+home_content_bec
+V, C kodu çağırabilir; C interop desteği olan herhangi bir dil de V kodu çağırabilir.
+-----
+home_content_bed
+REPL ve V ile çapraz platform shell script'leri
+-----
+home_content_bee
+REPL
+-----
+home_content_bef
+V ile çapraz platform shell script'leri
+-----
+home_content_beg
+V, deployment ve build script’leri gibi işler için Bash’e alternatif olarak kullanılabilir. Buradaki avantajları dilin basitliği, öngörülebilirliği ve çapraz platform desteğidir. “V script’leri” Unix benzeri sistemlerde de Windows’ta da çalışır.
+-----
+home_content_beh
+V script hakkında daha fazlasını okuyun
+-----
+home_content_bei
+Tutarlı stil için vfmt ile kod biçimlendirme · Yerleşik kod profilleyici
+-----
+home_content_bej
+Tutarlı stil için vfmt ile kod biçimlendirme
+-----
+home_content_bfa
+Kod stili tartışmalarına son. vfmt’nin uyguladığı tek bir resmî kod stili vardır.
+-----
+home_content_bfb
+Tüm V kod tabanları aynı stili kullanır; böylece başka geliştiricilerin yazdığı kodu okumak ve değiştirmek kolaylaşır.
+-----
+home_content_bfc
+Yerleşik kod profilleyici
+-----
+home_content_bfd
+Programınızı şu seçenekle derleyip çalıştırın:
+-----
+home_content_bfe
+ve tüm fonksiyon çağrılarının ayrıntılı listesini alın: çağrı sayısı, çağrı başına ortalama süre ve toplam süre.
+-----
+home_content_bff
+JavaScript ve WASM backend’leri · Otomatik dokümantasyon
+-----
+home_content_bfg
+JavaScript ve WASM backend’leri
+-----
+home_content_bfh
+V programları JavaScript’e çevrilebilir (WIP):
+-----
+home_content_bfi
+JS backend henüz erken aşamadadır.
+-----
+home_content_bfj
+Ayrıca WASM’e de derlenebilirler (şimdilik Emscripten ile; yerel WASM desteği planlanıyor). Burada V derleyicisi WASM’e derlenmiş durumda ve V programlarını JavaScript’e çevirerek çalıştırıyor:
+-----
+home_content_bga
+v-wasm.vercel.app
+-----
+home_content_bgb
+V’nin grafik backend’i kullanılarak yazılmış ve WASM’e derlenmiş bir oyun:
+-----
+home_content_bgc
+v2048
+-----
+home_content_bgd
+Otomatik dokümantasyon
+-----
+home_content_bge
+vdoc ile doğrudan modülün kaynak kodundan anında dokümantasyon üretin. Ayrı bir dokümantasyonu tutup güncellemeniz gerekmez.
+-----
+home_content_bgf
+Yerleşik test framework’ü · Anlaşılır hata mesajları
+-----
+home_content_bgg
+Yerleşik test framework’ü
+-----
+home_content_bgh
+Test yazmak çok kolaydır: test fonksiyonunuzun adını şu ifadeyle başlatmanız yeterlidir:
+-----
+home_content_bgi
+Anlaşılır hata mesajları
+-----
+home_content_bgj
+Yararlı hata mesajları, dili öğrenmeyi ve hataları düzeltmeyi kolaylaştırır:
+-----
+home_content_bha
+Güçlü yerleşik web framework’ü Veb
+-----
+home_content_bhb
+Veb çok hızlıdır (TechEmpower benchmark’ında üst sıralarda yer alan pico.v üzerine kuruludur), HTML şablonlarıyla birlikte tek bir binary’ye derlenir ve hot reload desteği sunar: herhangi bir .v/.html dosyasını değiştirdiğinizde site tarayıcıda otomatik olarak güncellenir.
+-----
+home_content_bhc
+github.com/vlang/v/tree/master/vlib/veb
+-----
+home_content_bhd
+Gitly
+-----
+home_content_bhe
+, GitHub/GitLab’e hafif ve hızlı bir alternatif olup V ve Veb ile geliştirilmiştir.
+-----
+home_content_bhf
+85933714-B195Fe80-B8Da-11Ea-9Ddd-09Cadc2103E4
+-----
+home_content_bhg
+Yerleşik ORM
+-----
+home_content_bhh
+Fikirden gerçeğe
+-----
+home_content_bhi
+V ile geliştirildi.
+-----
+home_content_bhj
+Ekosistemi keşfedin ↗
+-----
+home_content_bia
+V Derleyicisi
+-----
+home_content_bib
+V'nin kendisi V ile yazılmıştır.
+-----
+home_content_bic
+Volt
+-----
+home_content_bid
+Slack, Skype, Matrix, Telegram, Twitch ve daha birçok servis için yerel masaüstü istemcisi.
+-----
+home_content_bie
+Vinix
+-----
+home_content_bif
+Bash, GCC, V, g++ ve GTK3'ü şimdiden çalıştırabilen minimalist, açık kaynak bir işletim sistemi.
+-----
+home_content_big
+Ved
+-----
+home_content_bih
+Sublime Text performansı sunan, açık kaynak 1 MB’lık bir editör.
+-----
+home_content_bii
+Vox Browser
+-----
+home_content_bij
+Henüz geliştirme aşamasındaki bu HTML+CSS renderer, Hacker News gibi siteleri Chrome’dan 20 kat hızlı ve dörtte bir RAM kullanımıyla render edebiliyor.
+-----
+home_content_bja
+Volt.im anlık mesajlaşma ve sosyal platformu
+-----
+home_content_bjb
+Discord ve Telegram’ın en iyi özelliklerini birleştirirken son derece hızlı ve hafif kalmayı amaçlayan, yakında çıkacak açık kaynak bir alternatif.
+-----
+home_content_bjc
+vsql
+-----
+home_content_bjd
+Tamamen V ile yazılmış, bağımlılığı olmayan tek dosyalık SQL veritabanı.
+-----
+home_content_bje
+V ile coreutils
+-----
+home_content_bjf
+GNU coreutils'e karşılık gelen ve %100 V ile yazılmış programlar.
+-----
+home_content_bjg
+C'den V'ye çevirici
+-----
+home_content_bjh
+Bu araç şimdiden orijinal DOOM’un tamamını çevirebiliyor. C++ desteği de planlanıyor. İnsan tarafından okunabilir koda çeviri tamamen otomatik olarak yapılır.
+-----
+home_content_bji
+V UI
+-----
+home_content_bjj
+Çapraz platform widget toolkit’i.
+-----
+home_content_caa
+GitHub/GitLab'e açık kaynak, hafif ve hızlı alternatif.
+-----
+home_content_cab
+Gitly ekran görüntüsü
+-----
+home_content_cac
+Vorum
+-----
+home_content_cad
+Şu anda oldukça temel bir forum/blog yazılımıdır; ileride Discourse’a tam özellikli ve hafif bir alternatif olması amaçlanmaktadır.
+-----
+home_content_cae
+V forumu Vorum üzerinde çalışır.
+-----
+home_content_caf
+vgram
+-----
+home_content_cag
+Telegram Bot API için bot kütüphanesi.
+-----
+home_content_cah
+Awesome V
+-----
+home_content_cai
+Özenle seçilmiş V framework’leri, kütüphaneleri ve yazılımlarından oluşan bir liste
+-----
+home_content_caj
+V Tensor Library
+-----
+home_content_cba
+N boyutlu Tensor veri yapısı; gelişmiş reduction, elementwise ve accumulation işlemleri; C kütüphanelerine kolayca aktarılabilen veri yapıları ve VSL tabanlı güçlü lineer cebir rutinleri.
+-----
+home_content_cbb
+V Scientific Library
+-----
+home_content_cbc
+Çok çeşitli modüller sunan bilimsel bir kütüphane.
+-----
+home_content_cbd
+Lilly
+-----
+home_content_cbe
+Terminaliniz için Vim benzeri bir editör
+-----
+home_content_cbf
+Lilly ekran görüntüsü
+-----
+home_content_cbg
+V GUI
+-----
+home_content_cbh
+V için immediate-mode UI framework’ü.
+-----
+home_content_cbi
+V GUI ekran görüntüsü
+-----
+home_content_cbj
+Ürün veya kütüphanenizi V ile mi geliştiriyorsunuz?
+-----
+home_content_cca
+Bu listeye ekletin.
+-----
+home_content_ccb
+V'den son gelişmeler
+-----
+home_content_ccc
+Daima ileri.
+-----
+home_content_ccd
+Önceki haber
+-----
+home_content_cce
+Sonraki haber
+-----
+home_content_ccf
+Son haberler ve blog yazıları
+-----
+home_content_ccg
+V 1.0 yol haritası
+-----
+home_content_cch
+Haberler
+-----
+home_content_cci
+12 Tem 2026
+-----
+home_content_ccj
+V 0.5.2 yayımlandı!
+-----
+home_content_cda
+9 Mar 2026
+-----
+home_content_cdb
+V 0.5.1 yayımlandı!
+-----
+home_content_cdc
+31 Ara 2025
+-----
+home_content_cdd
+V 0.5 yayımlandı! V 0.4’ten bu yana 3700 (!) düzeltme.
+-----
+home_content_cde
+19 Eyl 2025
+-----
+home_content_cdf
+V 0.4.12 yayımlandı!
+-----
+home_content_cdg
+19 Haz 2025
+-----
+home_content_cdh
+V 0.4.11 yayımlandı!
+-----
+home_content_cdi
+20 Mar 2025
+-----
+home_content_cdj
+V 0.4.10 yayımlandı!
+-----
+home_content_cea
+22 Ara 2024
+-----
+home_content_ceb
+V 0.4.9 yayımlandı!
+-----
+home_content_cec
+28 Eyl 2024
+-----
+home_content_ced
+V 0.4.8 yayımlandı!
+-----
+home_content_cee
+26 Tem 2024
+-----
+home_content_cef
+V 0.4.7 yayımlandı!
+-----
+home_content_ceg
+20 May 2024
+-----
+home_content_ceh
+V 0.4.6 yayımlandı!
+-----
+home_content_cei
+20 Mar 2024
+-----
+home_content_cej
+V 0.4.5 yayımlandı!
+-----
+home_content_cfa
+9 Oca 2024
+-----
+home_content_cfb
+V 0.4.4 yayımlandı!
+-----
+home_content_cfc
+11 Kas 2023
+-----
+home_content_cfd
+V 0.4.3 yayımlandı!
+-----
+home_content_cfe
+30 Eyl 2023
+-----
+home_content_cff
+V 0.4.2 yayımlandı!
+-----
+home_content_cfg
+3 Eyl 2023
+-----
+home_content_cfh
+V 0.4.1 yayımlandı!
+-----
+home_content_cfi
+1 Temmuz 2023
+-----
+home_content_cfj
+V 0.4 yayımlandı!
+-----
+home_content_cga
+29 Haziran 2023
+-----
+home_content_cgb
+V 0.3.5 yayımlandı!
+-----
+home_content_cgc
+30 Nisan 2023
+-----
+home_content_cgd
+V 0.3.4 yayımlandı!
+-----
+home_content_cge
+17 Nisan 2023
+-----
+home_content_cgf
+Getting Started with V
+-----
+home_content_cgg
+30 Ocak 2023
+-----
+home_content_cgh
+V 0.3.3 yayımlandı!
+-----
+home_content_cgi
+31 Ekim 2022
+-----
+home_content_cgj
+V 0.3.2 yayımlandı!
+-----
+home_content_cha
+31 Ağustos 2022
+-----
+home_content_chb
+V 0.3.1 yayımlandı!
+-----
+home_content_chc
+30 Haziran 2022
+-----
+home_content_chd
+V 0.3 yayımlandı!
+-----
+home_content_che
+22 Haziran 2022
+-----
+home_content_chf
+C2V yayımlandı! Demo videosu:
+-----
+home_content_chg
+DOOM’u C’den V’ye çevirmek, bir saniyeden kısa sürede derlemek ve çalıştırmak!
+-----
+home_content_chh
+10 Haziran 2022
+-----
+home_content_chi
+V şurada yer aldı:
+-----
+home_content_chj
+RedMonk Q1 2022 Programlama Dilleri Sıralaması
+-----
+home_content_cia
+9 Haziran 2022
+-----
+home_content_cib
+Bugün itibarıyla V derleyicisiyle oluşturulan programlar varsayılan olarak bellek sızıntısına neden olmuyor.
+-----
+home_content_cic
+29 May 2022
+-----
+home_content_cid
+7000 pull request merge edildi!
+-----
+home_content_cie
+Üretmeyi sevenler için
+-----
+home_content_cif
+İyi bir topluluğun içinde.
+-----
+home_content_cig
+Önceki yorumlar
+-----
+home_content_cih
+Sonraki yorumlar
+-----
+home_content_cii
+Yorumlar
+-----
+home_content_cij
+Geçen gün tesadüfen V’ye rastladım ve o zamandan beri birkaç kişisel proje üzerinde çalışıyorum. Şimdiye kadar gerçekten çok sevdim. Go ile çok zaman geçirdiğim için oldukça tanıdık geliyor. Hatta dün gece MeshCore ile etkileşim kurmak için bir modül yaptım. Uzun zamandır programlama yaparken bu kadar eğlenmemiştim.
+-----
+home_content_cja
+CptnDuras
+-----
+home_content_cjb
+V geliştirme ekibi harika bir iş çıkarıyor. Bir dilin bu kadar hızlı geliştiğini hiç görmemiştim; sanırım hiç uyumuyorsunuz. V’nin basit ve temiz bir dil olarak kalmasını ve parlak bir geleceğe sahip olmasını umuyorum. Tüm emeğiniz için teşekkürler.
+-----
+home_content_cjc
+BrunoVDR
+-----
+home_content_cjd
+V’yi çok seviyorum. Sözdizimindeki soyutlama o kadar hoş ki genel olarak kod yazmayı keyifli hâle getiriyor. V, 2023’te denediğim zamana göre çok ilerledi. Bundan sonra aktif olarak kullanacağım.
+-----
+home_content_cje
+Kris Tun
+-----
+home_content_cjf
+Beni en çok şaşırtan şey, ne kadar çok şeyin “öylece çalışması”. Channel’lar ve closure’lar, C fonksiyonları için asenkron callback’ler yazmayı inanılmaz kolaylaştırdı. Bunun için teşekkürler! 😄
+-----
+home_content_cjg
+Joel L.
+-----
+home_content_cjh
+V, karşılaştığım en rahat sözdizimine sahip; bu yüzden 1.0’ı sabırsızlıkla bekliyorum.
+-----
+home_content_cji
+hellolio
+-----
+home_content_cjj
+Yaklaşık 30 yıldır programlama yapıyorum. Yıllar önce biraz C/C++, VB ve bolca Delphi kullandım. Sonra 15 yıldan uzun süre PHP/Ruby; ayrıca Bash ve Python kullandım. Yakın zamanda çeşitli nedenlerle derlenen bir dil kullanmaya başlamak istedim; Rust, Go ve birkaç dile daha baktım. Birkaç hafta önce V’ye rastladım ve öğrenmesinin ne kadar kolay olduğuna çok şaşırdım. V ile kod yazmaktan gerçekten keyif alıyorum ve şimdiden üretken olduğumu hissediyorum. Hatta artık küçük bir ... geliştirmeyi düşünüyorum.
+-----
+home_content_daa
+FlibbyJibbit
+-----
+home_content_dab
+V’nin gittiği yönü gerçekten seviyorum; uzun zamandır böyle bir dilin ne zaman ortaya çıkacağını merak ediyordum.
+-----
+home_content_dac
+pbarker
+-----
+home_content_dad
+V harika. En sevdiğim yönleri:
+-----
+home_content_dae
+Operatör aşırı yüklemedeki esneklik. (Sözdizimini sezgisel hâle getiriyor.)
+-----
+home_content_daf
+Doğrudan C’ye derlenmesi; ayrıca C’yi seviyorum.
+-----
+home_content_dag
+Garbage collection kullanıp kullanmama esnekliği
+-----
+home_content_dah
+Go eşzamanlılık modeli
+-----
+home_content_dai
+visrut
+-----
+home_content_daj
+Java ve Go konusunda güçlü bir geçmişim var; Rust ile de biraz uğraştım. Okunabilirlik açısından V gerçekten etkileyici görünüyor.
+-----
+home_content_dba
+Hoss
+-----
+home_content_dbb
+V inanılmaz derecede basit!
+-----
+home_content_dbc
+devsou.com
+-----
+home_content_dbd
+Geçimimi C# ile sağlıyorum ama bugün başladığım her proje V ile oluyor. Çünkü C#’ta her proje başta bir sürü bürokrasi getiriyor; V’de ise bunlarla başlangıçta uğraşmak zorunda kalmıyorum, gerektiğinde süreç içinde ekleyebiliyorum.
+-----
+home_content_dbe
+André L.
+-----
+home_content_dbf
+Bununla programlama yapmak acayip eğlenceli!
+-----
+home_content_dbg
+mrw
+-----
+home_content_dbh
+V’nin sözdiziminin gerçekten harika olduğunu söylemeliyim; özellikle hata yönetimi hoşuma gidiyor çünkü Go’nun hata yönetimi yaklaşımını pek sevmiyorum, diğer yönlerini ise beğeniyorum.
+-----
+home_content_dbi
+Teddy
+-----
+home_content_dbj
+V’den sonra C ile kernel geliştirmek daha fazla hataya yol açıyor; özellikle de V, C’nin gözden kaçırdığı bazı hataları ve bellek sızıntılarını yakaladığı için.
+-----
+home_content_dca
+mint, Vinix maintainer’ı
+-----
+home_content_dcb
+Dili geliştirmeye devam ettiğiniz için teşekkür etmek istiyorum. GC’nin eklenmesi çok iyi oldu ve V benim tüm zamanlardaki favori dilim hâline geldi. V, güzel sözdizimi ve araçları sayesinde keyifli; ayrıca altta işlerin nasıl yürüdüğünü anlamaya ittiği için sizi daha iyi bir geliştirici de yapıyor.
+-----
+home_content_dcc
+laotzu
+-----
+home_content_dcd
+V’ye katkıda bulunan herkese teşekkür etmek istiyorum! Eylül 2023’ten önce araçlarım pek uygun olmadığı için neredeyse hiç kod yazmamış veya bir projeyi tamamlamamıştım. Eylülde V öğrenmeye başladım; şimdi gerçekten iyi bir prototipim var ve profesyonel bir geliştirici bile kodumun çok iyi olduğunu söylemek için bana ulaştı! Bu yüzden V’ye ve tüm katkıda bulunanlara teşekkür etmek istedim 🥰
+-----
+home_content_dce
+Sh.a D'eau
+-----
+home_content_dcf
+Alex’in birçok farklı dilden edindiği deneyimi V’ye taşıdığı ve dile çok sağlam bir temel kazandırdığı açık. V’de sevdiğim tüm olumlu yönleri listelemek zor; mutlaka bir şeyleri unuturum. Yine de deneyeyim.
+-----
+home_content_dcg
+derleme hızı
+-----
+home_content_dch
+basitlik (yalnızca birkaç anahtar sözcük), ama aynı zamanda güçlü
+-----
+home_content_dci
+okunabilirlik ve bakım kolaylığı
+-----
+home_content_dcj
+çalışma performansı
+-----
+home_content_dda
+çapraz derleme ...
+-----
+home_content_ddb
+InspColumbo
+-----
+home_content_ddc
+Bu projeye katkıda bulunan herkese teşekkürler. Dilin basitliği ve derlenen bir dil olması, uygun olduğu alanlarda onu benim için bir numara yapıyor.
+-----
+home_content_ddd
+TenTypekMatus
+-----
+home_content_dde
+V’nin ne kadar harika bir dil olduğu konusunda yeterince takdir görmediğinizi düşünüyorum. Zamanınız ve emeğiniz için teşekkürler.
+-----
+home_content_ddf
+mihaigalos
+-----
+home_content_ddg
+V’ye rastladığımda doğrudan “doğru hissettirdi”.
+-----
+home_content_ddh
+chris_debian
+-----
+home_content_ddi
+V’ye katkıda bulunan herkese çok teşekkür ederim! V’yi keşfedeli 1,5 yıl oldu. Yardımsever topluluğu, sadelik felsefesini ve daha birçok şeyi gerçekten seviyorum. Bir HTTP sunucusu oluşturmanın ne kadar kolay olduğuna da şaşırdım: birkaç satır yeterli oluyor ve ardından örneği takip ederek request’i işlemek çok kolay. Yürekten teşekkürler ❤️
+-----
+home_content_ddj
+nopana
+-----
+home_content_dea
+V daha iyi bir Go. Kişisel projelerimde üretimde V kullanıyorum. Kullanması gerçekten büyük keyif.
+-----
+home_content_deb
+dovh49
+-----
+home_content_dec
+Birkaç yıl önce Data Scientist olarak çalışırken Python’da oldukça ustalaştım. V’yi keşfettiğimden beri Python kullanmayı neredeyse tamamen bıraktım; şimdi geriye dönüp bakınca... berbat geliyor. Programlama yaparken hiç bu kadar eğlenmemiştim.
+-----
+home_content_ded
+rodabt
+-----
+home_content_dee
+V gerçekten etkileyici. Yıllarca Go geliştirdikten sonra V, sevdiğim basitliği gerçek düşük seviye kontrol ve ham hızla birleştiriyor — tam eksikliğini hissettiğim şey. Daha yeni başladım, bu teknolojiyi daha derinlemesine incelemek için sabırsızlanıyorum ❤️
+-----
+home_content_def
+BadassBrah
+-----
+home_js_language_error
+Dil değiştirilemedi. Lütfen tekrar deneyin.
+-----
+home_js_resume_demos
+Otomatik demoları sürdür
+-----
+home_js_pause_demos
+Otomatik demoları duraklat
+-----
+home_js_doom_video_title
+DOOM'u C'den V'ye çevirme — tam demo
+-----
+home_js_recording_label
+macOS'ta V derleyicisinin yeniden derlenmesinin özgün kaydı
+-----
+home_js_english
+İngilizce
+-----
+home_js_copied
+Kopyalandı ✓
+-----
+home_js_copied_status
+Panoya kopyalandı.
+-----
+home_js_select_copy
+Seç ve kopyala
+-----
+home_js_clipboard_error
+Pano kullanılamıyor. Kod seçildi; kopyalamak için Command-C veya Control-C tuşlarına basın.
+-----
+home_index_agg
+Uygulama arayüzü tasarlamak için V UI2 Studio WYSIWYG editörü
+-----
+home_index_agh
+Yerel GUI · WYSIWYG editör
+-----
+home_index_agi
+Görsel olarak tasarlayın.
+-----
+home_index_agj
+V ile geliştirin.
+-----
+home_index_aha
+V UI, formları görsel olarak tasarlayıp ardından V ile geliştirebileceğiniz WYSIWYG editörlü yerel bir UI kütüphanesidir.
+-----
+home_index_ahb
+V UI'ı keşfedin ↗
+-----
+home_index_ahc
+V UI görsel editörü
+-----
