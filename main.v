@@ -34,8 +34,36 @@ enum Lang {
 	ja
 	zh
 	tr
+	pt_br
 	// cn
 	// pt
+}
+
+fn (lang Lang) str() string {
+	return match lang {
+		.en { 'en' }
+		.ru { 'ru' }
+		.es { 'es' }
+		.fr { 'fr' }
+		.ja { 'ja' }
+		.zh { 'zh' }
+		.tr { 'tr' }
+		.pt_br { 'pt-br' }
+	}
+}
+
+fn lang_from_code(code string) ?Lang {
+	return match code {
+		'en' { .en }
+		'ru' { .ru }
+		'es' { .es }
+		'fr' { .fr }
+		'ja' { .ja }
+		'zh' { .zh }
+		'tr' { .tr }
+		'pt-br' { .pt_br }
+		else { none }
+	}
 }
 
 // pub fn (app App) before_request() {
@@ -148,7 +176,8 @@ fn (mut app App) record_home_visit(ctx Context) {
 }
 
 pub fn (mut ctx Context) set_lang() {
-	ctx.lang = Lang.from_string(ctx.get_cookie('lang') or { 'en' }) or { Lang.en }
+	code := ctx.get_cookie('lang') or { 'en' }
+	ctx.lang = lang_from_code(code) or { Lang.en }
 }
 
 fn build_tr_menu(cur_lang Lang) string {
@@ -162,7 +191,8 @@ fn build_tr_menu(cur_lang Lang) string {
 		'<option value=fr ${if cur_lang == .fr { 'selected' } else { '' }}>FR</option>' +
 		'<option value=ja ${if cur_lang == .ja { 'selected' } else { '' }}>日本語</option>' +
 		'<option value=zh ${if cur_lang == .zh { 'selected' } else { '' }}>中文</option>' +
-		'<option value=tr ${if cur_lang == .tr { 'selected' } else { '' }}>TR</option></select>'
+		'<option value=tr ${if cur_lang == .tr { 'selected' } else { '' }}>TR</option>' +
+		'<option value=pt-br ${if cur_lang == .pt_br { 'selected' } else { '' }}>PT-BR</option></select>'
 	/*
 	s := match cur_lang {
 		.ru { 'English' }
@@ -174,7 +204,7 @@ fn build_tr_menu(cur_lang Lang) string {
 
 @['/change_lang/:lang'; post]
 pub fn (mut app App) change_lang(mut ctx Context, lang string) veb.Result {
-	selected_lang := Lang.from_string(lang) or {
+	selected_lang := lang_from_code(lang) or {
 		ctx.res.set_status(.bad_request)
 		return ctx.json('Unsupported language')
 	}
