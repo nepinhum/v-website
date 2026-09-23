@@ -1,0 +1,1720 @@
+examples
+サンプル
+-----
+home_meta_title
+V — プログラミング言語 V
+-----
+home_skip_to_content
+本文へスキップ
+-----
+home_nav_language
+言語
+-----
+home_nav_stdlib_docs
+標準ライブラリのドキュメント
+-----
+home_nav_ecosystem
+エコシステム
+-----
+home_nav_community
+コミュニティ
+-----
+home_language_label
+言語
+-----
+home_github_sponsors
+GitHub Sponsors
+-----
+documentation
+ドキュメント
+-----
+tutorials
+チュートリアル
+-----
+modules
+モジュール
+-----
+faq
+よくある質問
+-----
+playground
+プレイグラウンド
+-----
+built_in_v
+V で作られたもの
+-----
+the_v_lang
+プログラミング言語 V
+-----
+v_slogan
+保守しやすいソフトウェアを開発するための、シンプルで高速、安全なコンパイル型言語
+-----
+includes_binaries
+3 つのシステム向けのバイナリを同梱
+-----
+install_source
+または、ソースから V をインストール
+-----
+couple_seconds
+数秒で完了します
+-----
+wip_info
+V は、活発に開発が進められている初期段階の言語です。
+開発中の機能には $wip と表示しています。
+<br>
+このページとドキュメントに記載されている、それ以外の機能はすべて実装済みで、ソースコードも公開されています。
+<p>
+2019 年 12 月に予定されている V 1.0 のリリースまでに、$wip はすべてなくなる予定です。
+-----
+forum
+フォーラム
+-----
+blog
+ブログ
+-----
+fast_compilation
+高速なコンパイル
+-----
+safety
+安全性
+-----
+performance
+パフォーマンス
+-----
+simple_language_for_maintainable_programs
+保守しやすいプログラムを作るためのシンプルな言語
+-----
+you_can_learn
+週末に
+<a target=_blank href='https://github.com/vlang/v/blob/master/doc/docs.md'>ドキュメント</a>をひととおり読めば、
+言語全体を学べます。ほとんどの場合、同じことをするための方法は一つだけです。
+-----
+this_results_in_simple
+そのため、コードはシンプルで読みやすく、保守しやすくなります。
+-----
+despite_being_simple
+V はシンプルでありながら、開発者に強力な機能を提供します。システムプログラミング、Web 開発、ゲーム開発、GUI、モバイル、科学技術計算、組み込み、ツール開発など、ほぼあらゆる分野で利用できます。
+-----
+v_is_similar_to_go
+V は Go にとてもよく似ています。Go を知っていれば、V の約 80% はすでに理解していることになります。
+Go と比べて V が改善している点：<a target=_blank href='https://vlang.io/compare#go'>vlang.io/compare#go</a>。
+-----
+download_for_macos
+macOS 版をダウンロード
+-----
+download_for_windows
+Windows 版をダウンロード
+-----
+download_for_linux
+Linux 版をダウンロード
+-----
+zero_deps
+依存関係のない 400 KB のコンパイラ
+-----
+c_translation
+C/C++ からの変換
+-----
+introduction
+はじめに
+-----
+comments
+コメント
+-----
+functions
+関数
+-----
+variables
+変数
+-----
+basic_types
+基本型
+-----
+strings
+文字列
+-----
+arrays
+配列
+-----
+maps
+マップ
+-----
+if
+if 文
+-----
+in_op
+in 演算子
+-----
+for_loop
+for ループ
+-----
+switch
+switch 文
+-----
+structs
+構造体
+-----
+access_mod
+アクセス修飾子
+-----
+methods
+メソッド
+-----
+pure_fns
+純粋関数
+-----
+high_fns
+高階関数
+-----
+constants
+定数
+-----
+modules
+モジュール
+-----
+interfaces
+インターフェース
+-----
+enums
+列挙型
+-----
+optionals_and_errors
+Option 型とエラー処理
+-----
+generics
+ジェネリクス
+-----
+concurrency
+並行処理
+-----
+decoding_json
+JSON のデコード
+-----
+testing
+テスト
+-----
+memory_management
+メモリ管理
+-----
+fast_comp1
+V は CPU コアあたり毎秒約 10 万〜120 万行のコードをコンパイルします。
+-----
+fast_comp2
+V は 0.15〜0.6 秒で自己コンパイルできます。
+-----
+fast_comp3
+-----
+fast_comp4
+-----
+no_null
+null なし
+-----
+latest_news
+最新ニュースと
+-----
+blog_posts
+ブログ記事
+-----
+what_developers_say
+開発者が語る V
+-----
+v_review_1
+V の開発チームは本当に素晴らしい仕事をしています。これほど速く進化する言語は見たことがありません。
+皆さん、寝ていないのではないでしょうか。V がこれからもシンプルで洗練された言語であり続け、明るい未来を迎えることを願っています。
+皆さんの尽力に感謝します。
+-----
+v_review_2
+一番驚いたのは、これほど多くのことが「そのまま動く」ということです。
+チャネルとクロージャのおかげで、C 関数の非同期コールバックをとても簡単に実装できました。
+ありがとうございます！ 😄
+-----
+v_review_3
+プログラミング歴は約 30 年です。昔は C/C++ や VB を少し、それから Delphi をかなり使っていました。
+その後は PHP/Ruby を 15 年以上使い、Bash や Python も使ってきました。最近、いろいろな理由からコンパイル型言語を
+使い始めたくなり、Rust、Go、ほかにもいくつか調べました。数週間前に偶然 V を知り、
+その習得しやすさにとても驚いています。V でコードを書くのが本当に楽しく、
+すでに十分に開発を進められていると感じます。今では小さな……を作ろうと考えているほどです。
+-----
+partners_sponsors
+パートナーとスポンサー
+-----
+become_sponsor_via_github
+GitHub Sponsors でスポンサーになる
+-----
+is_v_still_fast
+V は今も高速？
+-----
+built_in_v
+V で作られたもの
+-----
+book1
+V 初の紙の書籍！
+-----
+book2
+V の紙の書籍、第 2 弾！
+-----
+home_index_aab
+プログラミング言語 V
+-----
+home_index_aac
+シンプル、高速、安全。保守しやすいソフトウェアを開発するためのコンパイル型言語
+-----
+home_index_aad
+github.com/vlang/v
+-----
+home_index_aae
+★ 38k
+-----
+home_index_aaf
+macOS (Apple Silicon)
+-----
+home_index_aag
+11.4 MB
+-----
+home_index_aah
+その他の V のダウンロード方法
+-----
+home_index_aai
+macOS
+-----
+home_index_aaj
+Apple Silicon
+-----
+home_index_aba
+Intel
+-----
+home_index_abb
+Linux
+-----
+home_index_abc
+x86_64
+-----
+home_index_abd
+Windows
+-----
+home_index_abe
+ソースからビルド
+-----
+home_index_abf
+動いている V を見る
+-----
+home_index_abg
+MacBook Air M3 で 0.48 秒で自己コンパイルする V 0.4.8
+-----
+home_index_abh
+驚くほど高速なコンパイル
+-----
+home_index_abi
+V は毎秒約 10 万行（Clang バックエンド）、約 70 万行（arm64 および tcc バックエンド）のコードをコンパイルします。
+-----
+home_index_abj
+（Apple M5、最適化なし）
+-----
+home_index_aca
+V 自身も V で書かれており、M5 では 0.5 秒で自己コンパイルできます。
+-----
+home_index_acb
+実際に試してみましょう：
+-----
+home_index_acc
+C から V への変換後に動作する初代 DOOM
+-----
+home_index_acd
+DOOM の変換動画を再生
+-----
+home_index_ace
+C が V に変わる様子を見る
+-----
+home_index_acf
+C → V → DOOM
+-----
+home_index_acg
+懐かしのゲーム。
+-----
+home_index_ach
+新しい可能性。
+-----
+home_index_aci
+DOOM を C から V に変換し、1 秒未満でビルド：
+-----
+home_index_acj
+変換後のコードはこちら：
+-----
+home_index_ada
+github.com/vlang/doom ↗
+-----
+home_index_adb
+コードの編集が即座に反映される、実行中の V アプリケーション
+-----
+home_index_adc
+編集。保存。すぐ反映。
+-----
+home_index_add
+コードを変えても、
+-----
+home_index_ade
+流れは止めない。
+-----
+home_index_adf
+アプリケーションの状態を失わずにコードをライブリロード。アイデアを、もっとすばやく目に見える形に。
+-----
+home_index_adg
+ライブリロードを詳しく見る ↗
+-----
+home_index_adh
+Veb のブラウザライブリロード実演動画用の仮プレビュー
+-----
+home_index_adi
+localhost:8080
+-----
+home_index_adj
+ライブ
+-----
+home_index_aea
+デモ動画を制作中
+-----
+home_index_aeb
+変更が
+-----
+home_index_aec
+すぐに反映。
+-----
+home_index_aed
+保存後に更新
+-----
+home_index_aee
+Veb · ブラウザのライブリロード
+-----
+home_index_aef
+コードを保存。
+-----
+home_index_aeg
+Web サイトで確認。
+-----
+home_index_aeh
+保存するたびに、実行中の Web サイトがブラウザ上で即座に更新されます。コンパイルも、再実行も、ブラウザの手動更新も不要です。
+-----
+home_index_aei
+別のオペレーティングシステムから Windows アプリケーションをクロスコンパイル
+-----
+home_index_aej
+一つの言語で、もっと多くの環境へ。
+-----
+home_index_afa
+ここでビルド。
+-----
+home_index_afb
+あちらで実行。
+-----
+home_index_afc
+別のオペレーティングシステム向けにネイティブアプリケーションをクロスコンパイル。いつものツールを、どこへでも。
+-----
+home_index_afd
+クロスコンパイルを詳しく見る ↗
+-----
+home_index_afe
+V で書かれたオペレーティングシステム Vinix 上で動作する、グラフィカルデスクトップとネイティブアプリケーション
+-----
+home_index_aff
+カーネルから、その先まで。
+-----
+home_index_afg
+そう、オペレーティングシステムも
+-----
+home_index_afh
+丸ごと。
+-----
+home_index_afi
+Vinix は、V で書かれたモダンなオペレーティングシステムです。ハードウェアに近いレベルまで、シンプルさを追求しています。
+-----
+home_index_afj
+Vinix を詳しく見る ↗
+-----
+home_index_aga
+デモを選択
+-----
+home_index_agb
+C2V による DOOM の変換
+-----
+home_index_agc
+コードのホットリロード
+-----
+home_index_agd
+Veb によるブラウザの即時リロード
+-----
+home_index_age
+クロスコンパイル
+-----
+home_index_agf
+Vinix のカーネルとオペレーティングシステム
+-----
+home_shared_aab
+プログラミング言語 V のホーム
+-----
+home_shared_aac
+メニュー
+-----
+home_shared_aad
+メインナビゲーション
+-----
+home_shared_aae
+Patreon で V を支援
+-----
+home_shared_aaf
+素晴らしい仲間がいます
+-----
+home_shared_aag
+言語と、それを支えるコミュニティ。
+-----
+home_shared_aah
+Discord に参加する ↗
+-----
+home_shared_aai
+仲間を見つけよう。
+-----
+home_shared_aaj
+質問したり、作っているものを紹介したり、これからの V を一緒に形にしたり。
+-----
+home_shared_aba
+Discord ↗
+-----
+home_shared_abb
+X / Twitter ↗
+-----
+home_shared_abc
+Mastodon ↗
+-----
+home_shared_abd
+Telegram ↗
+-----
+home_shared_abe
+YouTube ↗
+-----
+home_shared_abf
+Twitch ↗
+-----
+home_shared_abg
+Veery ↗
+-----
+home_shared_abh
+お気に入りのエディタでも。
+-----
+home_shared_abi
+いつもの使い慣れた環境に、シンタックスハイライトと言語ツールを。
+-----
+home_shared_abj
+VS Code
+-----
+home_shared_aca
+IntelliJ
+-----
+home_shared_acb
+Vim
+-----
+home_shared_acc
+Emacs
+-----
+home_shared_acd
+Sublime Text
+-----
+home_shared_ace
+もう少し深く学ぶ。
+-----
+home_shared_acf
+『Getting Started with V Programming』の表紙
+-----
+home_shared_acg
+Getting Started with V Programming
+-----
+home_shared_ach
+V 初の紙の書籍 ↗
+-----
+home_shared_aci
+『Randomness Revisited using V』の表紙
+-----
+home_shared_acj
+Randomness Revisited
+-----
+home_shared_ada
+V の紙の書籍、第 2 弾 ↗
+-----
+home_shared_adb
+V のグッズストアへ ↗
+-----
+home_shared_adc
+オープンソース。志を、ともに。
+-----
+more_features
+その他の機能
+-----
+home_shared_add
+Huly
+-----
+home_shared_ade
+ThreeFold
+-----
+home_shared_adf
+Syndica
+-----
+home_shared_adg
+October Swimmer
+-----
+home_shared_adh
+MX
+-----
+home_shared_adi
+What Lab
+-----
+home_shared_adj
+V
+-----
+home_shared_aea
+小さな言語。
+-----
+home_shared_aeb
+作れるものは、無限大。
+-----
+home_shared_aec
+学ぶ
+-----
+home_shared_aed
+標準ライブラリ
+-----
+home_shared_aee
+探す
+-----
+home_shared_aef
+V パッケージマネージャー
+-----
+home_shared_aeg
+ほかの言語との比較
+-----
+home_shared_aeh
+よくある質問
+-----
+home_shared_aei
+最新情報を追う
+-----
+home_shared_aej
+変更履歴
+-----
+home_shared_afa
+ロードマップ
+-----
+home_shared_afb
+RFC（提案文書）
+-----
+home_shared_afc
+github.com/vlang/v
+-----
+home_shared_afd
+V を支援する
+-----
+home_shared_afe
+GitHub Sponsors
+-----
+home_shared_aff
+Patreon
+-----
+home_shared_afg
+PayPal
+-----
+home_shared_afh
+グッズ
+-----
+home_shared_afi
+お問い合わせ
+-----
+home_shared_afj
+愛を込めて、オープンソースで。
+-----
+home_shared_aga
+MIT ライセンス
+-----
+home_shared_agb
+ページの先頭へ ↑
+-----
+home_content_aab
+言語を知る
+-----
+home_content_aac
+開発者の皆さん、こんにちは
+-----
+home_content_aad
+ファイルの読み込みと絞り込み
+-----
+home_content_aae
+HTTP と時刻
+-----
+home_content_aaf
+JSON のエンコードとデコード
+-----
+home_content_aag
+map 処理と重複の除去
+-----
+home_content_aah
+サンプルをコピー
+-----
+home_content_aai
+「開発者の皆さん、こんにちは」のサンプルコード
+-----
+home_content_aaj
+ファイルの読み込みと絞り込みのサンプルコード
+-----
+home_content_aba
+HTTP と時刻のサンプルコード
+-----
+home_content_abb
+JSON のエンコードとデコードのサンプルコード
+-----
+home_content_abc
+map 処理と重複の除去のサンプルコード
+-----
+home_content_abd
+ソースから V をインストール
+-----
+home_content_abe
+インストールコマンドをコピー
+-----
+home_content_abf
+コピー ⧉
+-----
+home_content_abg
+Windows では
+-----
+home_content_abh
+を実行してください。Windows 以外では
+-----
+home_content_abi
+続いて試すコマンド：
+-----
+home_content_abj
+設計はシンプル。機能はパワフル。
+-----
+home_content_aca
+言語が、開発の邪魔をしません。
+-----
+home_content_acb
+週末に
+-----
+home_content_acc
+ドキュメント
+-----
+home_content_acd
+をひととおり読めば、言語全体を学べます。ほとんどの場合、同じことをするための方法は一つだけです。
+-----
+home_content_ace
+そのため、コードはシンプルで読みやすく、保守しやすくなります。
+-----
+home_content_acf
+V はシンプルでありながら、開発者に強力な機能を提供します。システムプログラミング、Web 開発、ゲーム開発、GUI、モバイル、科学技術計算、組み込み、ツール開発など、ほぼあらゆる分野で利用できます。
+-----
+home_content_acg
+V は Go にとてもよく似ています。Go を知っていれば、V の約 80% はすでに理解していることになります。Go と比べて V が改善している点：
+-----
+home_content_ach
+vlang.io/compare#go
+-----
+home_content_aci
+安全性
+-----
+home_content_acj
+境界チェック
+-----
+home_content_ada
+未定義の値なし
+-----
+home_content_adb
+変数のシャドーイングなし
+-----
+home_content_adc
+変数はデフォルトで不変
+-----
+home_content_add
+構造体はデフォルトで不変
+-----
+home_content_ade
+Option/Result と必須のエラーチェック
+-----
+home_content_adf
+直和型
+-----
+home_content_adg
+ジェネリクス
+-----
+home_content_adh
+関数の引数はデフォルトで不変。変更可能な引数は呼び出し時に明示が必要
+-----
+home_content_adi
+null なし
+-----
+home_content_adj
+（unsafe コード内では使用可能）
+-----
+home_content_aea
+未定義動作なし
+-----
+home_content_aeb
+新機能！
+-----
+home_content_aec
+グローバル変数なし
+-----
+home_content_aed
+（カーネルなどの低レベルアプリケーション向けに、フラグで有効化可能）
+-----
+home_content_aee
+パフォーマンスと高速なコンパイル
+-----
+home_content_aef
+パフォーマンス
+-----
+home_content_aeg
+オーバーヘッドのない C との相互運用
+-----
+home_content_aeh
+メモリ割り当てを最小限に
+-----
+home_content_aei
+実行時リフレクションを使わない組み込みのシリアライズ機能
+-----
+home_content_aej
+依存関係のないネイティブバイナリにコンパイル。シンプルな Web サーバーなら、わずか約 250 KB
+-----
+home_content_afa
+同等のコードなら C と同じ速さで動作します（V のメインバックエンドは、人間が読める C コードにコンパイルします）。
+-----
+home_content_afb
+V では安全性のために、配列の境界チェックや GC による解放など、ある程度のオーバーヘッドが生じます。ただし、パフォーマンスを優先する場合は、これらの機能を無効化したり回避したりできます。
+-----
+home_content_afc
+高速なコンパイル
+-----
+home_content_afd
+V は毎秒約 8 万行（Clang バックエンド）、約 40 万行（x64 および tcc バックエンド）のコードをコンパイルします。
+-----
+home_content_afe
+（Apple M2、最適化なし）
+-----
+home_content_aff
+V 自身も V で書かれており、1 秒未満で自己コンパイルできます (
+-----
+home_content_afg
+MacBook Air M3 では 0.33 秒
+-----
+home_content_afh
+コンパイラの大部分はまだシングルスレッドで動作しているため、今後は 2〜3 倍の高速化が見込まれます！
+-----
+home_content_afi
+小さく、簡単にビルドできるコンパイラ
+-----
+home_content_afj
+V は、C に変換したコードを次の単純なコマンドでコンパイルするだけで、1 秒未満でブートストラップできます：
+-----
+home_content_aga
+ライブラリも依存関係も不要です。
+-----
+home_content_agb
+比較のため、各コンパイラのビルドに必要な容量と時間を示します：
+-----
+home_content_agc
+容量
+-----
+home_content_agd
+ビルド時間
+-----
+home_content_age
+Go
+-----
+home_content_agf
+525 MB
+-----
+home_content_agg
+1 分 33 秒
+-----
+home_content_agh
+Rust
+-----
+home_content_agi
+30 GB
+-----
+home_content_agj
+45 分
+-----
+home_content_aha
+GCC
+-----
+home_content_ahb
+8 GB
+-----
+home_content_ahc
+50 分
+-----
+home_content_ahd
+Clang
+-----
+home_content_ahe
+90 GB
+-----
+home_content_ahf
+60 分
+-----
+home_content_ahg
+Swift
+-----
+home_content_ahh
+70 GB
+-----
+home_content_ahi
+90 分
+-----
+home_content_ahj
+V
+-----
+home_content_aia
+< 20 MB
+-----
+home_content_aib
+1 秒未満
+-----
+home_content_aic
+柔軟なメモリ管理
+-----
+home_content_aid
+V は値型と文字列バッファを活用し、抽象化を使わないシンプルなコーディングスタイルを推奨することで、そもそも不要なメモリ割り当てが発生しないようにしています。
+-----
+home_content_aie
+V には 4 つのメモリ管理方法があります。
+-----
+home_content_aif
+デフォルトでは、最小限の構成で高い性能を持つトレーシング GC を使用します。
+-----
+home_content_aig
+2 つ目は autofree です。次のオプションで有効にできます：
+-----
+home_content_aih
+。ほとんどのオブジェクト（約 90〜100%）はこの仕組みで処理され、コンパイラがコンパイル時に必要な解放処理を自動挿入します。残りのわずかなオブジェクトは GC によって解放されます。開発者がコードを変更する必要はありません。Python、Go、Java のように「そのまま動く」一方、すべてを追跡する重い GC や、オブジェクトごとにコストの高い参照カウント（RC）を行う必要はありません。autofree はまだ実験的な機能で、本番環境で利用できる段階には達していません。V 1.0 での対応を予定しています。
+-----
+home_content_aii
+より低レベルの制御を求める開発者は、次のオプションを使って手動でメモリを管理できます：
+-----
+home_content_aij
+アリーナアロケーションは、次のコマンドで利用できます：
+-----
+home_content_aja
+V の autofree のデモ。すべてのオブジェクトがコンパイル時に解放されます。Ved エディタで 8 MB のファイルを開いても、メモリリークはゼロ：
+-----
+home_content_ajb
+YouTube のコンパイル速度動画
+-----
+home_content_ajc
+C からの変換
+-----
+home_content_ajd
+V は C プロジェクト全体を変換でき、安全性、シンプルさ、そしてモジュールによるコンパイルの高速化をもたらします。
+-----
+home_content_aje
+DOOM の変換について解説した
+-----
+home_content_ajf
+ブログ記事／チュートリアル
+-----
+home_content_ajg
+を公開しています。
+-----
+home_content_ajh
+C++ から V への変換は、まだ初期段階です。
+-----
+home_content_aji
+コードのホットリロード
+-----
+home_content_ajj
+再コンパイルせずに、変更を即座に反映できます。
+-----
+home_content_baa
+コンパイルのたびに作業中の状態を再現する必要もないため、開発中の貴重な時間を大幅に節約できます。
+-----
+home_content_bab
+github.com/.../examples/hot_reload
+-----
+home_content_bac
+強力なグラフィックスライブラリ
+-----
+home_content_bad
+クロスプラットフォームの描画ライブラリ
+-----
+home_content_bae
+は、OpenGL/Metal/DirectX 11 を使って 2D アプリケーションを描画します。
+-----
+home_content_baf
+3D エンジンも開発中で、次の機能はすでに利用できます：
+-----
+home_content_bag
+テクスチャ付きの複雑な 3D オブジェクトの読み込み
+-----
+home_content_bah
+カメラ（移動、視点の変更）
+-----
+home_content_bai
+スケルタルアニメーション
+-----
+home_content_baj
+グラフィックスライブラリの簡単な使用例：
+-----
+home_content_bba
+tetris.v
+-----
+home_content_bbb
+3D のサンプルは
+-----
+home_content_bbc
+こちら
+-----
+home_content_bbd
+エンジンのスクリーンショット
+-----
+home_content_bbe
+軽量・高速なクロスプラットフォーム GUI ライブラリ
+-----
+home_content_bbf
+V UI でネイティブ UI アプリケーションを開発できます。クロスプラットフォームアプリをすばやく作るために、ブラウザを組み込む必要はもうありません。
+-----
+home_content_bbg
+V には、Qt や Flutter のように独自の描画を行いつつ、ネイティブの GUI ツールキットにできるだけ近づけた UI モジュールがあります。
+-----
+home_content_bbh
+SwiftUI や React Native に似た宣言的な API を備え、Windows、Linux、macOS、Android で動作します。
+-----
+home_content_bbi
+今後の予定：
+-----
+home_content_bbj
+ネイティブ GUI アプリを作るための、Delphi のようなビジュアルエディタ
+-----
+home_content_bca
+iOS への対応
+-----
+home_content_bcb
+github.com/vlang/ui
+-----
+home_content_bcc
+V と V UI で作られた、わずか 3 MB の Slack/Discord クライアント Volt：
+-----
+home_content_bcd
+画面 3
+-----
+home_content_bce
+簡単なクロスコンパイル
+-----
+home_content_bcf
+ソフトウェアのクロスコンパイルは、次のコマンドを実行するだけです：
+-----
+home_content_bcg
+または
+-----
+home_content_bch
+。GUI アプリやグラフィカルなアプリでも、追加の手順は必要ありません！
+-----
+home_content_bci
+（現時点では、macOS 向けソフトウェアのコンパイルは macOS 上でのみ可能です。）
+-----
+home_content_bcj
+macOS 版の V を使って Windows 版の V をビルドし、生成された v.exe を Windows の仮想マシンでテスト：
+-----
+home_content_bda
+手間のかからないデプロイと依存関係管理、そして多様な環境での実行
+-----
+home_content_bdb
+手間のかからないデプロイと依存関係管理
+-----
+home_content_bdc
+プロジェクトの規模にかかわらず、ビルドするには次のコマンドを実行するだけです：
+-----
+home_content_bdd
+ビルド環境、makefile、ヘッダー、仮想環境などは不要です。
+-----
+home_content_bde
+外部依存関係のない単一のバイナリが得られます。クロスコンパイルを行えば、すべてのオペレーティングシステムで動作することが保証されます。
+-----
+home_content_bdf
+このバイナリは、動的リンクされる OS 提供のシステムライブラリ（libc）を除き、単体で完結しています。
+-----
+home_content_bdg
+Linux で完全に静的なバイナリを生成するには、次のコマンドを使用できます：
+-----
+home_content_bdh
+V で書かれた中央集約型パッケージマネージャー vpm を使えば、新しいライブラリのインストールは次のように簡単です：
+-----
+home_content_bdi
+さまざまな環境で実行
+-----
+home_content_bdj
+V は人間が読める C コードを出力できるため、GCC や Clang の幅広いプラットフォーム対応と優れた最適化を活用できます。（最適化ビルドには
+-----
+home_content_bea
+を使用してください。）
+-----
+home_content_beb
+直接の機械語生成が成熟した後も、C コードの出力は引き続き利用できます。
+-----
+home_content_bec
+V から C のコードを呼び出せます。また、C との相互運用に対応する言語なら、どの言語からでも V のコードを呼び出せます。
+-----
+home_content_bed
+REPL と V によるクロスプラットフォームのシェルスクリプト
+-----
+home_content_bee
+REPL
+-----
+home_content_bef
+V によるクロスプラットフォームのシェルスクリプト
+-----
+home_content_beg
+V は Bash の代わりに、デプロイスクリプトやビルドスクリプトなどの記述に使えます。言語がシンプルで動作を予測しやすく、クロスプラットフォームに対応していることが利点です。「V スクリプト」は Unix 系システムでも Windows でも動作します。
+-----
+home_content_beh
+V スクリプトについて詳しく読む
+-----
+home_content_bei
+vfmt によるコードスタイルの統一と組み込みのコードプロファイラ
+-----
+home_content_bej
+vfmt によるコードスタイルの統一
+-----
+home_content_bfa
+コーディングスタイルについて議論する必要はもうありません。vfmt フォーマッタによって、一つの公式スタイルに統一されます。
+-----
+home_content_bfb
+すべての V のコードベースで同じスタイルが使われるため、ほかの開発者が書いたコードも読みやすく、変更しやすくなります。
+-----
+home_content_bfc
+組み込みのコードプロファイラ
+-----
+home_content_bfd
+次のコマンドでプログラムをビルドして実行すると、
+-----
+home_content_bfe
+すべての関数呼び出しについて、呼び出し回数、1 回あたりの平均時間、呼び出し時間の合計をまとめた詳細な一覧が得られます。
+-----
+home_content_bff
+JavaScript・WASM バックエンドとドキュメントの自動生成
+-----
+home_content_bfg
+JavaScript・WASM バックエンド
+-----
+home_content_bfh
+V のプログラムは JavaScript に変換できます（開発中）：
+-----
+home_content_bfi
+JS バックエンドは、まだ初期段階です。
+-----
+home_content_bfj
+WASM にコンパイルすることもできます（現時点では Emscripten を使用しますが、ネイティブの WASM 対応も予定しています）。WASM にコンパイルされた V コンパイラが、V のプログラムを JavaScript に変換して実行する例：
+-----
+home_content_bga
+v-wasm.vercel.app
+-----
+home_content_bgb
+V のグラフィックスバックエンドを使って作成し、WASM にコンパイルしたゲーム：
+-----
+home_content_bgc
+v2048
+-----
+home_content_bgd
+ドキュメントの自動生成
+-----
+home_content_bge
+vdoc を使えば、モジュールのソースコードから直接ドキュメントをすぐに生成できます。別のドキュメントを保管したり更新したりする必要はありません。
+-----
+home_content_bgf
+組み込みのテストフレームワークとわかりやすいエラーメッセージ
+-----
+home_content_bgg
+組み込みのテストフレームワーク
+-----
+home_content_bgh
+テストの記述はとても簡単です。テスト関数の名前を、次の接頭辞で始めるだけです：
+-----
+home_content_bgi
+わかりやすいエラーメッセージ
+-----
+home_content_bgj
+役に立つエラーメッセージが、言語の学習とエラーの修正を助けます：
+-----
+home_content_bha
+強力な組み込み Web フレームワーク Veb
+-----
+home_content_bhb
+Veb は非常に高速です（TechEmpower ベンチマークでトップに立った実績のある pico.v を基盤としています）。HTML テンプレートも含めて単一のバイナリにコンパイルされ、コードのホットリロードにも対応しています。.v/.html ファイルを変更すると、ブラウザ上の Web サイトが自動で更新されます。
+-----
+home_content_bhc
+github.com/vlang/v/tree/master/vlib/veb
+-----
+home_content_bhd
+Gitly
+-----
+home_content_bhe
+は、GitHub/GitLab に代わる軽量・高速なソフトウェアで、V と Veb で作られています。
+-----
+home_content_bhf
+85933714-B195Fe80-B8Da-11Ea-9Ddd-09Cadc2103E4
+-----
+home_content_bhg
+組み込みの ORM
+-----
+home_content_bhh
+アイデアを、形に
+-----
+home_content_bhi
+V で作られたもの。
+-----
+home_content_bhj
+エコシステムを見る ↗
+-----
+home_content_bia
+V コンパイラ
+-----
+home_content_bib
+V 自身も V で書かれています。
+-----
+home_content_bic
+Volt
+-----
+home_content_bid
+Slack、Skype、Matrix、Telegram、Twitch など、多数のサービスに対応するネイティブのデスクトップクライアント。
+-----
+home_content_bie
+Vinix
+-----
+home_content_bif
+Bash、GCC、V、g++、GTK3 がすでに動作する、最小限の構成のオープンソース OS。
+-----
+home_content_big
+Ved
+-----
+home_content_bih
+Sublime Text に匹敵するパフォーマンスを備えた、わずか 1 MB のオープンソースエディタ。
+-----
+home_content_bii
+Vox Browser
+-----
+home_content_bij
+初期段階の HTML+CSS レンダラー。Hacker News のようなサイトを、Chrome の 20 倍の速さ、4 分の 1 の RAM 使用量ですでに描画できます。
+-----
+home_content_bja
+Volt.im — インスタントメッセージとソーシャルのプラットフォーム
+-----
+home_content_bjb
+Discord と Telegram の長所を組み合わせた、超高速・軽量なオープンソースの代替サービス。公開に向けて開発中です。
+-----
+home_content_bjc
+vsql
+-----
+home_content_bjd
+純粋な V で書かれた、依存関係のない単一ファイルの SQL データベース。
+-----
+home_content_bje
+V で実装した coreutils
+-----
+home_content_bjf
+100% V で書かれた、GNU coreutils に相当するプログラム群。
+-----
+home_content_bjg
+C から V への変換ツール
+-----
+home_content_bjh
+初代 DOOM 全体をすでに変換できるツールです。C++ への対応も予定しています。人間が読めるコードへ完全自動で変換します。
+-----
+home_content_bji
+V UI
+-----
+home_content_bjj
+クロスプラットフォームのウィジェットツールキット。
+-----
+home_content_caa
+GitHub/GitLab に代わる、軽量・高速なオープンソースのソフトウェア。
+-----
+home_content_cab
+Gitly のスクリーンショット
+-----
+home_content_cac
+Vorum
+-----
+home_content_cad
+現在はごく基本的なフォーラム／ブログ用ソフトウェアですが、将来的には Discourse に代わる、多機能で軽量なソフトウェアになる予定です。
+-----
+home_content_cae
+V のフォーラムは Vorum で動作しています。
+-----
+home_content_caf
+vgram
+-----
+home_content_cag
+Telegram Bot API 用のボットライブラリ。
+-----
+home_content_cah
+Awesome V
+-----
+home_content_cai
+優れた V のフレームワーク、ライブラリ、ソフトウェアを厳選したリスト
+-----
+home_content_caj
+V テンソルライブラリ
+-----
+home_content_cba
+n 次元のテンソルデータ構造、高度なリダクション・要素ごと・累積の各演算、C ライブラリに簡単に渡せるデータ構造、VSL を基盤とする強力な線形代数ルーチンを提供します。
+-----
+home_content_cbb
+V 科学技術計算ライブラリ
+-----
+home_content_cbc
+多種多様なモジュールを備えた科学技術計算ライブラリ。
+-----
+home_content_cbd
+Lilly
+-----
+home_content_cbe
+ターミナルで使える Vim 風エディタ
+-----
+home_content_cbf
+Lilly のスクリーンショット
+-----
+home_content_cbg
+V GUI
+-----
+home_content_cbh
+V 向けの即時モード UI フレームワーク。
+-----
+home_content_cbi
+V GUI のスクリーンショット
+-----
+home_content_cbj
+V で製品やライブラリを開発していますか？
+-----
+home_content_cca
+このリストに掲載しましょう。
+-----
+home_content_ccb
+V の最新情報
+-----
+home_content_ccc
+いつも、前へ。
+-----
+home_content_ccd
+前のニュース
+-----
+home_content_cce
+次のニュース
+-----
+home_content_ccf
+最新ニュースとブログ記事
+-----
+home_content_ccg
+V 1.0 ロードマップ
+-----
+home_content_cch
+ニュース
+-----
+home_content_cci
+2026 年 7 月 12 日
+-----
+home_content_ccj
+V 0.5.2 リリース！
+-----
+home_content_cda
+2026 年 3 月 9 日
+-----
+home_content_cdb
+V 0.5.1 リリース！
+-----
+home_content_cdc
+2025 年 12 月 31 日
+-----
+home_content_cdd
+V 0.5 リリース！ V 0.4 以降、なんと 3700 件の修正。
+-----
+home_content_cde
+2025 年 9 月 19 日
+-----
+home_content_cdf
+V 0.4.12 リリース！
+-----
+home_content_cdg
+2025 年 6 月 19 日
+-----
+home_content_cdh
+V 0.4.11 リリース！
+-----
+home_content_cdi
+2025 年 3 月 20 日
+-----
+home_content_cdj
+V 0.4.10 リリース！
+-----
+home_content_cea
+2024 年 12 月 22 日
+-----
+home_content_ceb
+V 0.4.9 リリース！
+-----
+home_content_cec
+2024 年 9 月 28 日
+-----
+home_content_ced
+V 0.4.8 リリース！
+-----
+home_content_cee
+2024 年 7 月 26 日
+-----
+home_content_cef
+V 0.4.7 リリース！
+-----
+home_content_ceg
+2024 年 5 月 20 日
+-----
+home_content_ceh
+V 0.4.6 リリース！
+-----
+home_content_cei
+2024 年 3 月 20 日
+-----
+home_content_cej
+V 0.4.5 リリース！
+-----
+home_content_cfa
+2024 年 1 月 9 日
+-----
+home_content_cfb
+V 0.4.4 リリース！
+-----
+home_content_cfc
+2023 年 11 月 11 日
+-----
+home_content_cfd
+V 0.4.3 リリース！
+-----
+home_content_cfe
+2023 年 9 月 30 日
+-----
+home_content_cff
+V 0.4.2 リリース！
+-----
+home_content_cfg
+2023 年 9 月 3 日
+-----
+home_content_cfh
+V 0.4.1 リリース！
+-----
+home_content_cfi
+2023 年 7 月 1 日
+-----
+home_content_cfj
+V 0.4 リリース！
+-----
+home_content_cga
+2023 年 6 月 29 日
+-----
+home_content_cgb
+V 0.3.5 リリース！
+-----
+home_content_cgc
+2023 年 4 月 30 日
+-----
+home_content_cgd
+V 0.3.4 リリース！
+-----
+home_content_cge
+2023 年 4 月 17 日
+-----
+home_content_cgf
+V 入門
+-----
+home_content_cgg
+2023 年 1 月 30 日
+-----
+home_content_cgh
+V 0.3.3 リリース！
+-----
+home_content_cgi
+2022 年 10 月 31 日
+-----
+home_content_cgj
+V 0.3.2 リリース！
+-----
+home_content_cha
+2022 年 8 月 31 日
+-----
+home_content_chb
+V 0.3.1 リリース！
+-----
+home_content_chc
+2022 年 6 月 30 日
+-----
+home_content_chd
+V 0.3 リリース！
+-----
+home_content_che
+2022 年 6 月 22 日
+-----
+home_content_chf
+C2V リリース！ デモ動画：
+-----
+home_content_chg
+DOOM を C から V に変換し、1 秒未満でビルドして実行！
+-----
+home_content_chh
+2022 年 6 月 10 日
+-----
+home_content_chi
+V がランクイン：
+-----
+home_content_chj
+RedMonk の 2022 年第 1 四半期プログラミング言語ランキング
+-----
+home_content_cia
+2022 年 6 月 9 日
+-----
+home_content_cib
+本日より、V コンパイラでビルドしたプログラムは、デフォルトでメモリリークを起こさなくなりました。
+-----
+home_content_cic
+2022 年 5 月 29 日
+-----
+home_content_cid
+7000 件のプルリクエストがマージされました！
+-----
+home_content_cie
+ものづくりが好きな人のために
+-----
+home_content_cif
+素晴らしい仲間とともに。
+-----
+home_content_cig
+前のレビュー
+-----
+home_content_cih
+次のレビュー
+-----
+home_content_cii
+レビュー
+-----
+home_content_cij
+先日たまたま V を知り、いくつかの個人プロジェクトで使っています。今のところ本当に気に入っています。Go を長く使っていたので、とてもなじみやすいです。実は昨夜、MeshCore とやり取りするためのモジュールも作りました。プログラミングがこんなに楽しいのは、本当に久しぶりです。
+-----
+home_content_cja
+CptnDuras
+-----
+home_content_cjb
+V の開発チームは本当に素晴らしい仕事をしています。これほど速く進化する言語は見たことがありません。皆さん、寝ていないのではないでしょうか。V がこれからもシンプルで洗練された言語であり続け、明るい未来を迎えることを願っています。皆さんの尽力に感謝します。
+-----
+home_content_cjc
+BrunoVDR
+-----
+home_content_cjd
+V がとても気に入っています。構文の抽象化がとてもよくできていて、コードを書くこと自体を楽しめます。2023 年に試したときから、V は大きく進歩しました。これからは積極的に使っていきます。
+-----
+home_content_cje
+Kris Tun
+-----
+home_content_cjf
+一番驚いたのは、これほど多くのことが「そのまま動く」ということです。チャネルとクロージャのおかげで、C 関数の非同期コールバックをとても簡単に実装できました。ありがとうございます！ 😄
+-----
+home_content_cjg
+Joel L.
+-----
+home_content_cjh
+これまで出会った中で、V の構文が一番しっくりきます。1.0 が楽しみです。
+-----
+home_content_cji
+hellolio
+-----
+home_content_cjj
+プログラミング歴は約 30 年です。昔は C/C++ や VB を少し、それから Delphi をかなり使っていました。その後は PHP/Ruby を 15 年以上使い、Bash や Python も使ってきました。最近、いろいろな理由からコンパイル型言語を使い始めたくなり、Rust、Go、ほかにもいくつか調べました。数週間前に偶然 V を知り、その習得しやすさにとても驚いています。V でコードを書くのが本当に楽しく、すでに十分に開発を進められていると感じます。今では小さな……を作ろうと考えているほどです。
+-----
+home_content_daa
+FlibbyJibbit
+-----
+home_content_dab
+V が目指している方向がとても気に入っています。こういう言語がいつ登場するのだろうと、ずっと思っていました。
+-----
+home_content_dac
+pbarker
+-----
+home_content_dad
+V は素晴らしいです。特に気に入っている点は：
+-----
+home_content_dae
+演算子オーバーロードの柔軟さ（構文が直感的になります）
+-----
+home_content_daf
+C に直接コンパイルされること。私は C が大好きです
+-----
+home_content_dag
+ガベージコレクションを使うかどうか選べる柔軟さ
+-----
+home_content_dah
+Go の並行処理モデル
+-----
+home_content_dai
+visrut
+-----
+home_content_daj
+Java と Go を長く使ってきて、Rust も試しています。読みやすさという点で、V はとても素晴らしいと思います。
+-----
+home_content_dba
+Hoss
+-----
+home_content_dbb
+V は驚くほどシンプルです！
+-----
+home_content_dbc
+devsou.com
+-----
+home_content_dbd
+C# で稼いで息子のおむつを買っていますが、今、新しく始めるプロジェクトはすべて V です。C# ではどのプロジェクトにも最初から煩雑な手続きが伴いますが、V では最初にそれらをこなす必要がありません。そうした手続きは、開発を進めながら必要に応じてプロジェクトに組み込めます。
+-----
+home_content_dbe
+André L.
+-----
+home_content_dbf
+これでプログラミングするのは、めちゃくちゃ楽しい！
+-----
+home_content_dbg
+mrw
+-----
+home_content_dbh
+V の構文は本当に素晴らしいと言わずにはいられません。特にエラー処理が気に入っています。Go のほかの点は好きなのですが、エラー処理のやり方だけはどうしても好きになれないので。
+-----
+home_content_dbi
+Teddy
+-----
+home_content_dbj
+V を使った後で C でカーネルを開発すると、バグが増えます。正直なところ、V が検出してくれる種類のバグやメモリリークを、C では検出できないことが大きいです。
+-----
+home_content_dca
+mint（Vinix のメンテナー）
+-----
+home_content_dcb
+言語を改善し続けてくださっていることに、感謝を伝えたいです。GC が追加されたのはとてもうれしく、V はこれまでで一番好きな言語になりました。素晴らしい構文とツールのおかげで V を使うのは楽しいですし、内部でどう動いているのかを理解しようとすることで、よりよい開発者にもなれます。
+-----
+home_content_dcc
+laotzu
+-----
+home_content_dcd
+V に貢献している皆さんにお礼を言いたいです！ 2023 年 9 月までは、使っていたツールがあまりよくなかったこともあり、本格的にコードを書いたことも、プロジェクトを完成させたこともありませんでした。9 月に V を学び始め、今ではとてもよいプロトタイプができています。プロの開発者から、私のコードはとてもよいと連絡までいただきました！ だから、V とすべての貢献者の皆さんに感謝したいのです 🥰
+-----
+home_content_dce
+Sh.a D'eau
+-----
+home_content_dcf
+Alex がほかの多くの言語で培った経験を V に生かし、とても強固な基盤を築いたことは明らかです。V の気に入っている点をすべて挙げるのは難しいです。きっと何か忘れてしまうので。それでも、挙げてみます。
+-----
+home_content_dcg
+コンパイル速度
+-----
+home_content_dch
+キーワードが少なくシンプルなのに、強力なこと
+-----
+home_content_dci
+読みやすさと保守のしやすさ
+-----
+home_content_dcj
+実行時のパフォーマンス
+-----
+home_content_dda
+クロスコンパイルなど……
+-----
+home_content_ddb
+InspColumbo
+-----
+home_content_ddc
+このプロジェクトに貢献してくださった皆さん、ありがとうございます。言語のシンプルさとコンパイル型であることから、用途に合う場面では一番の選択肢です。
+-----
+home_content_ddd
+TenTypekMatus
+-----
+home_content_dde
+V がこれほど素晴らしい言語であることに対して、皆さんはまだ十分に評価されていないと思います。時間と労力を注いでくださって、ありがとうございます。
+-----
+home_content_ddf
+mihaigalos
+-----
+home_content_ddg
+偶然 V に出会ったとき、ただ「しっくりくる」と感じました。
+-----
+home_content_ddh
+chris_debian
+-----
+home_content_ddi
+V に貢献している皆さん、本当にありがとうございます！ V を知ってから 1.5 年になります。親切で助け合うコミュニティ、シンプルさを大切にする考え方、ほかにもたくさんのことが気に入っています。HTTP サーバーの作りやすさには、うれしい驚きがありました。わずか数行で作れて、サンプルに沿えばリクエストの処理もとても簡単です。心の底から、ありがとうございます ❤️
+-----
+home_content_ddj
+nopana
+-----
+home_content_dea
+V は、Go をさらによくした言語です。個人プロジェクトの本番環境で V を使っています。使っていて本当に楽しいです。
+-----
+home_content_deb
+dovh49
+-----
+home_content_dec
+数年前にデータサイエンティストとして働いていたとき、Python を使いこなせるようになりました。V を知ってからは Python をほとんど使わなくなり、今振り返ると……ひどいものでした。今ほどプログラミングが楽しかったことはありません。
+-----
+home_content_ded
+rodabt
+-----
+home_content_dee
+V は本当に印象的です。長年 Go で開発してきましたが、V には私の好きなシンプルさがあり、そのうえ本格的な低レベルの制御と高い実行速度もあります。まさに、これまで足りないと感じていたものです。まだ始めたばかりですが、この技術をもっと深く学ぶのが楽しみです ❤️
+-----
+home_content_def
+BadassBrah
+-----
+home_js_language_error
+言語を変更できませんでした。もう一度お試しください。
+-----
+home_js_resume_demos
+デモの自動再生を再開
+-----
+home_js_pause_demos
+デモの自動再生を一時停止
+-----
+home_js_doom_video_title
+DOOM を C から V に変換 — 実演の全編
+-----
+home_js_recording_label
+macOS 上での V コンパイラのリビルドを収録したオリジナル動画
+-----
+home_js_english
+英語
+-----
+home_js_copied
+コピーしました ✓
+-----
+home_js_copied_status
+クリップボードにコピーしました。
+-----
+home_js_select_copy
+選択してコピー
+-----
+home_js_clipboard_error
+クリップボードを利用できません。コードは選択済みです。Command-C または Control-C を押してコピーしてください。
+-----
+home_index_agg
+アプリケーションのインターフェースを設計する V UI2 Studio の WYSIWYG エディタ
+-----
+home_index_agh
+ネイティブ GUI · WYSIWYG エディタ
+-----
+home_index_agi
+見たままデザイン。
+-----
+home_index_agj
+V で構築。
+-----
+home_index_aha
+V UI は、フォームを視覚的にデザインし、V で構築できる WYSIWYG エディタを備えたネイティブ UI ライブラリです。
+-----
+home_index_ahb
+V UI を詳しく見る ↗
+-----
+home_index_ahc
+V UI のビジュアルエディタ

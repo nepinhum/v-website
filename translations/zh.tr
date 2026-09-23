@@ -1,0 +1,1720 @@
+examples
+示例
+-----
+home_meta_title
+V — V 编程语言
+-----
+home_skip_to_content
+跳转到正文
+-----
+home_nav_language
+语言
+-----
+home_nav_stdlib_docs
+标准库文档
+-----
+home_nav_ecosystem
+生态系统
+-----
+home_nav_community
+社区
+-----
+home_language_label
+语言
+-----
+home_github_sponsors
+GitHub Sponsors
+-----
+documentation
+文档
+-----
+tutorials
+教程
+-----
+modules
+模块
+-----
+faq
+常见问题
+-----
+playground
+在线体验
+-----
+built_in_v
+用 V 构建
+-----
+the_v_lang
+V 编程语言
+-----
+v_slogan
+简洁、快速、安全的编译型语言，助你开发易于维护的软件
+-----
+includes_binaries
+包含适用于 3 种系统的二进制文件
+-----
+install_source
+或从源码安装 V
+-----
+couple_seconds
+只需几秒钟
+-----
+wip_info
+V 是一门仍处于早期阶段、正在积极开发的语言。
+仍在开发中的功能以 $wip 标记。
+<br>
+本页面及文档中的其余功能均已实现并开源。
+<p>
+到计划于 2019 年 12 月发布 V 1.0 时，将不再有任何 $wip 标记。
+-----
+forum
+论坛
+-----
+blog
+博客
+-----
+fast_compilation
+快速编译
+-----
+safety
+安全性
+-----
+performance
+性能
+-----
+simple_language_for_maintainable_programs
+用于构建易于维护程序的简洁语言
+-----
+you_can_learn
+你只需花一个周末通读
+<a target=_blank href='https://github.com/vlang/v/blob/master/doc/docs.md'>文档</a>，就能学会整门语言；
+而且在大多数情况下，一件事只有一种做法。
+-----
+this_results_in_simple
+这让代码简洁、易读且易于维护。
+-----
+despite_being_simple
+V 虽然简洁，却为开发者提供了强大的能力，几乎可用于所有领域，包括系统编程、Web 开发、游戏开发、图形用户界面、移动应用、科学计算、嵌入式系统、工具开发等。
+-----
+v_is_similar_to_go
+V 与 Go 非常相似。如果你会 Go，就已经掌握了 V 的约 80%。
+V 相较于 Go 的改进：<a target=_blank href='https://vlang.io/compare#go'>vlang.io/compare#go</a>。
+-----
+download_for_macos
+下载 macOS 版
+-----
+download_for_windows
+下载 Windows 版
+-----
+download_for_linux
+下载 Linux 版
+-----
+zero_deps
+仅 400 KB、零依赖的编译器
+-----
+c_translation
+C/C++ 代码转换
+-----
+introduction
+简介
+-----
+comments
+注释
+-----
+functions
+函数
+-----
+variables
+变量
+-----
+basic_types
+基本类型
+-----
+strings
+字符串
+-----
+arrays
+数组
+-----
+maps
+映射
+-----
+if
+if 条件语句
+-----
+in_op
+in 运算符
+-----
+for_loop
+for 循环
+-----
+switch
+switch 语句
+-----
+structs
+结构体
+-----
+access_mod
+访问修饰符
+-----
+methods
+方法
+-----
+pure_fns
+纯函数
+-----
+high_fns
+高阶函数
+-----
+constants
+常量
+-----
+modules
+模块
+-----
+interfaces
+接口
+-----
+enums
+枚举
+-----
+optionals_and_errors
+可选类型与错误处理
+-----
+generics
+泛型
+-----
+concurrency
+并发
+-----
+decoding_json
+JSON 解码
+-----
+testing
+测试
+-----
+memory_management
+内存管理
+-----
+fast_comp1
+V 在每个 CPU 核心上每秒可编译约 10 万至 120 万行代码。
+-----
+fast_comp2
+V 编译自身仅需 0.15 - 0.6 秒。
+-----
+fast_comp3
+-----
+fast_comp4
+-----
+no_null
+无 null
+-----
+latest_news
+最新资讯与
+-----
+blog_posts
+博客文章
+-----
+what_developers_say
+开发者如何评价 V
+-----
+v_review_1
+V 开发团队的工作非常出色。我从未见过一门语言发展得如此之快；
+我怀疑你们从不睡觉。希望 V 能始终保持简洁、清晰，并拥有光明的未来。
+感谢你们的辛勤付出。
+-----
+v_review_2
+最让我惊讶的是，竟有这么多东西“直接就能用”。
+有了通道和闭包，为 C 函数实现异步回调变得轻而易举。
+谢谢你们！😄
+-----
+v_review_3
+我编程已有约 30 年。多年前用过一些 C/C++、VB，还写过大量 Delphi 代码。
+之后使用 PHP/Ruby 超过 15 年，也用过 Bash 和 Python。最近出于一些原因，我想开始使用一门编译型
+语言，于是了解了 Rust、Go 和其他几门语言。几周前，我偶然发现了 V，
+它上手如此容易，令我非常惊讶。我真的很享受用 V 编程，
+感觉自己已经能高效地完成工作了，甚至开始考虑做一个小型的……
+-----
+partners_sponsors
+合作伙伴与赞助商
+-----
+become_sponsor_via_github
+通过 GitHub Sponsors 成为赞助者
+-----
+is_v_still_fast
+V 依然很快吗？
+-----
+built_in_v
+用 V 构建
+-----
+book1
+第一本关于 V 的纸质书！
+-----
+book2
+第二本关于 V 的纸质书！
+-----
+home_index_aab
+V 编程语言
+-----
+home_index_aac
+简洁、快速、安全、编译型。用于开发易于维护的软件
+-----
+home_index_aad
+github.com/vlang/v
+-----
+home_index_aae
+★ 38k
+-----
+home_index_aaf
+macOS（Apple Silicon）
+-----
+home_index_aag
+11.4 MB
+-----
+home_index_aah
+更多 V 下载选项
+-----
+home_index_aai
+macOS
+-----
+home_index_aaj
+Apple Silicon
+-----
+home_index_aba
+Intel
+-----
+home_index_abb
+Linux
+-----
+home_index_abc
+x86_64
+-----
+home_index_abd
+Windows
+-----
+home_index_abe
+从源码构建
+-----
+home_index_abf
+V 实际演示
+-----
+home_index_abg
+V 0.4.8 在 MacBook Air M3 上用 0.48 秒完成自身编译
+-----
+home_index_abh
+极速编译
+-----
+home_index_abi
+V 每秒可编译约 10 万行代码（Clang 后端）或约 70 万行代码（arm64 和 tcc 后端）。
+-----
+home_index_abj
+（Apple M5，未启用优化）
+-----
+home_index_aca
+V 使用 V 编写，在 M5 上编译自身仅需 0.5 秒。
+-----
+home_index_acb
+亲自试试：
+-----
+home_index_acc
+原版 DOOM 从 C 转换为 V 后运行
+-----
+home_index_acd
+播放 DOOM 代码转换视频
+-----
+home_index_ace
+见证 C 变成 V
+-----
+home_index_acf
+C → V → DOOM
+-----
+home_index_acg
+经典游戏。
+-----
+home_index_ach
+全新可能。
+-----
+home_index_aci
+将 DOOM 从 C 转换为 V，并在不到一秒内完成构建：
+-----
+home_index_acj
+可在此查看转换后的代码：
+-----
+home_index_ada
+github.com/vlang/doom ↗
+-----
+home_index_adb
+编辑代码后，正在运行的 V 应用立即更新
+-----
+home_index_adc
+编辑。保存。即刻生效。
+-----
+home_index_add
+修改代码。
+-----
+home_index_ade
+保持当前状态。
+-----
+home_index_adf
+代码实时重载，同时保留应用状态。从想法到眼前的效果，只需更少的步骤。
+-----
+home_index_adg
+了解实时重载 ↗
+-----
+home_index_adh
+Veb 浏览器实时重载演示视频的预览占位图
+-----
+home_index_adi
+localhost:8080
+-----
+home_index_adj
+实时
+-----
+home_index_aea
+演示视频制作中
+-----
+home_index_aeb
+所做修改
+-----
+home_index_aec
+即刻呈现。
+-----
+home_index_aed
+保存后已更新
+-----
+home_index_aee
+Veb · 浏览器实时重载
+-----
+home_index_aef
+保存代码。
+-----
+home_index_aeg
+查看网站。
+-----
+home_index_aeh
+每次保存后，运行中的网站都会立即在浏览器中刷新。无需编译、重新运行或手动刷新浏览器。
+-----
+home_index_aei
+在其他操作系统上交叉编译 Windows 应用
+-----
+home_index_aej
+一种语言，更多平台。
+-----
+home_index_afa
+此处构建。
+-----
+home_index_afb
+彼处运行。
+-----
+home_index_afc
+为其他操作系统交叉编译原生应用，让你的工具随处可用。
+-----
+home_index_afd
+了解交叉编译 ↗
+-----
+home_index_afe
+使用 V 编写的操作系统 Vinix，正在运行图形桌面及原生应用
+-----
+home_index_aff
+从内核开始。
+-----
+home_index_afg
+没错，整个
+-----
+home_index_afh
+操作系统。
+-----
+home_index_afi
+认识 Vinix：一个使用 V 编写的现代操作系统，将简洁一路延伸至硬件底层。
+-----
+home_index_afj
+了解 Vinix ↗
+-----
+home_index_aga
+选择演示
+-----
+home_index_agb
+使用 C2V 转换 DOOM
+-----
+home_index_agc
+代码热重载
+-----
+home_index_agd
+Veb 浏览器即时重载
+-----
+home_index_age
+交叉编译
+-----
+home_index_agf
+Vinix 内核与操作系统
+-----
+home_shared_aab
+V 编程语言首页
+-----
+home_shared_aac
+菜单
+-----
+home_shared_aad
+主导航
+-----
+home_shared_aae
+在 Patreon 上支持 V
+-----
+home_shared_aaf
+与志同道合者同行
+-----
+home_shared_aag
+一门语言，一个社区。
+-----
+home_shared_aah
+在 Discord 上加入我们 ↗
+-----
+home_shared_aai
+找到志同道合的伙伴。
+-----
+home_shared_aaj
+提出问题，分享你正在构建的项目，或一起塑造未来。
+-----
+home_shared_aba
+Discord ↗
+-----
+home_shared_abb
+X / Twitter ↗
+-----
+home_shared_abc
+Mastodon ↗
+-----
+home_shared_abd
+Telegram ↗
+-----
+home_shared_abe
+YouTube ↗
+-----
+home_shared_abf
+Twitch ↗
+-----
+home_shared_abg
+Veery ↗
+-----
+home_shared_abh
+也支持你喜爱的编辑器。
+-----
+home_shared_abi
+在你熟悉的编辑器中，使用语法高亮和语言工具。
+-----
+home_shared_abj
+VS Code
+-----
+home_shared_aca
+IntelliJ
+-----
+home_shared_acb
+Vim
+-----
+home_shared_acc
+Emacs
+-----
+home_shared_acd
+Sublime Text
+-----
+home_shared_ace
+深入了解。
+-----
+home_shared_acf
+《V 编程入门》（Getting Started with V Programming）书籍封面
+-----
+home_shared_acg
+V 编程入门
+-----
+home_shared_ach
+第一本关于 V 的纸质书 ↗
+-----
+home_shared_aci
+《用 V 重新审视随机性》（Randomness Revisited using V）书籍封面
+-----
+home_shared_acj
+重新审视随机性
+-----
+home_shared_ada
+第二本关于 V 的纸质书 ↗
+-----
+home_shared_adb
+访问 V 周边商店 ↗
+-----
+home_shared_adc
+开源，共同的追求。
+-----
+more_features
+更多功能
+-----
+home_shared_add
+Huly
+-----
+home_shared_ade
+ThreeFold
+-----
+home_shared_adf
+Syndica
+-----
+home_shared_adg
+October Swimmer
+-----
+home_shared_adh
+MX
+-----
+home_shared_adi
+What Lab
+-----
+home_shared_adj
+V
+-----
+home_shared_aea
+小巧的语言。
+-----
+home_shared_aeb
+无限的创造可能。
+-----
+home_shared_aec
+学习
+-----
+home_shared_aed
+标准库
+-----
+home_shared_aee
+探索
+-----
+home_shared_aef
+V 包管理器
+-----
+home_shared_aeg
+语言对比
+-----
+home_shared_aeh
+常见问题
+-----
+home_shared_aei
+关注动态
+-----
+home_shared_aej
+更新日志
+-----
+home_shared_afa
+路线图
+-----
+home_shared_afb
+意见征求稿（RFC）
+-----
+home_shared_afc
+github.com/vlang/v
+-----
+home_shared_afd
+支持 V
+-----
+home_shared_afe
+GitHub Sponsors
+-----
+home_shared_aff
+Patreon
+-----
+home_shared_afg
+PayPal
+-----
+home_shared_afh
+周边商品
+-----
+home_shared_afi
+联系我们
+-----
+home_shared_afj
+以热爱，做开源。
+-----
+home_shared_aga
+MIT 许可证
+-----
+home_shared_agb
+返回顶部 ↑
+-----
+home_content_aab
+探索这门语言
+-----
+home_content_aac
+你好，开发者
+-----
+home_content_aad
+读取并筛选文件
+-----
+home_content_aae
+HTTP + 时间
+-----
+home_content_aaf
+JSON 编码与解码
+-----
+home_content_aag
+映射 + 去重
+-----
+home_content_aah
+复制示例
+-----
+home_content_aai
+“你好，开发者”示例代码
+-----
+home_content_aaj
+读取并筛选文件的示例代码
+-----
+home_content_aba
+HTTP + 时间的示例代码
+-----
+home_content_abb
+JSON 编码与解码的示例代码
+-----
+home_content_abc
+映射 + 去重的示例代码
+-----
+home_content_abd
+从源码安装 V
+-----
+home_content_abe
+复制安装命令
+-----
+home_content_abf
+复制 ⧉
+-----
+home_content_abg
+在 Windows 上，请运行
+-----
+home_content_abh
+而不是
+-----
+home_content_abi
+然后试试
+-----
+home_content_abj
+设计简洁，功能强大。
+-----
+home_content_aca
+让语言成为助力，而非阻碍。
+-----
+home_content_acb
+你只需花一个周末通读
+-----
+home_content_acc
+文档
+-----
+home_content_acd
+，就能学会整门语言；而且在大多数情况下，一件事只有一种做法。
+-----
+home_content_ace
+这让代码简洁、易读且易于维护。
+-----
+home_content_acf
+V 虽然简洁，却为开发者提供了强大的能力，几乎可用于所有领域，包括系统编程、Web 开发、游戏开发、图形用户界面、移动应用、科学计算、嵌入式系统、工具开发等。
+-----
+home_content_acg
+V 与 Go 非常相似。如果你会 Go，就已经掌握了 V 的约 80%。V 相较于 Go 的改进：
+-----
+home_content_ach
+vlang.io/compare#go
+-----
+home_content_aci
+安全性
+-----
+home_content_acj
+边界检查
+-----
+home_content_ada
+无未定义的值
+-----
+home_content_adb
+不允许变量遮蔽
+-----
+home_content_adc
+变量默认不可变
+-----
+home_content_add
+结构体默认不可变
+-----
+home_content_ade
+Option/Result 类型与强制错误检查
+-----
+home_content_adf
+和类型（Sum types）
+-----
+home_content_adg
+泛型
+-----
+home_content_adh
+函数参数默认不可变，传入可变参数时必须在调用处显式标记
+-----
+home_content_adi
+无 null
+-----
+home_content_adj
+（在 unsafe 代码中允许使用）
+-----
+home_content_aea
+无未定义行为
+-----
+home_content_aeb
+新增！
+-----
+home_content_aec
+无全局变量
+-----
+home_content_aed
+（内核等底层应用可通过编译选项启用）
+-----
+home_content_aee
+性能与快速编译
+-----
+home_content_aef
+性能
+-----
+home_content_aeg
+零开销的 C 互操作
+-----
+home_content_aeh
+尽可能减少内存分配
+-----
+home_content_aei
+内置序列化，无需运行时反射
+-----
+home_content_aej
+编译为无依赖的原生二进制文件：一个简单的 Web 服务器仅约 250 KB
+-----
+home_content_afa
+对于等效代码，速度与 C 一样快（V 的主要后端将代码编译为人类可读的 C 代码）。
+-----
+home_content_afb
+V 的确会为了安全性引入一些开销（例如数组边界检查、GC 内存释放），但当性能更重要时，可以禁用或绕过这些功能。
+-----
+home_content_afc
+快速编译
+-----
+home_content_afd
+V 每秒可编译约 8 万行代码（Clang 后端）或约 40 万行代码（x64 和 tcc 后端）。
+-----
+home_content_afe
+（Apple M2，未启用优化）
+-----
+home_content_aff
+V 使用 V 编写，编译自身不到一秒 (
+-----
+home_content_afg
+在 MacBook Air M3 上仅需 0.33 秒
+-----
+home_content_afh
+编译器的大部分代码仍为单线程，因此未来的编译速度还将提升至目前的 2-3 倍！
+-----
+home_content_afi
+小巧且易于构建的编译器
+-----
+home_content_afj
+只需用以下简单命令编译 V 转换后的 C 代码，即可在不到一秒内完成 V 的自举：
+-----
+home_content_aga
+无需任何库或依赖项。
+-----
+home_content_agb
+作为对比，构建各编译器所需的空间和时间如下：
+-----
+home_content_agc
+空间
+-----
+home_content_agd
+构建时间
+-----
+home_content_age
+Go
+-----
+home_content_agf
+525 MB
+-----
+home_content_agg
+1 分 33 秒
+-----
+home_content_agh
+Rust
+-----
+home_content_agi
+30 GB
+-----
+home_content_agj
+45 分钟
+-----
+home_content_aha
+GCC
+-----
+home_content_ahb
+8 GB
+-----
+home_content_ahc
+50 分钟
+-----
+home_content_ahd
+Clang
+-----
+home_content_ahe
+90 GB
+-----
+home_content_ahf
+60 分钟
+-----
+home_content_ahg
+Swift
+-----
+home_content_ahh
+70 GB
+-----
+home_content_ahi
+90 分钟
+-----
+home_content_ahj
+V
+-----
+home_content_aia
+< 20 MB
+-----
+home_content_aib
+<1 秒
+-----
+home_content_aic
+灵活的内存管理
+-----
+home_content_aid
+V 使用值类型和字符串缓冲区，并提倡简洁、不引入抽象层的代码风格，从源头上避免不必要的内存分配。
+-----
+home_content_aie
+V 提供 4 种内存管理方式。
+-----
+home_content_aif
+默认使用精简且性能出色的追踪式垃圾回收器（GC）。
+-----
+home_content_aig
+第二种方式是 autofree，可通过以下选项启用：
+-----
+home_content_aih
+。它可处理大多数对象（约 90-100%）：编译器会在编译期间自动插入必要的 free 调用，剩余少量对象则由 GC 释放。开发者无需修改代码，就像 Python、Go 或 Java 一样，“直接就能用”，但不需要繁重的 GC 追踪所有对象，也无需对每个对象执行开销高昂的引用计数（RC）。Autofree 仍处于实验阶段，尚不适合生产环境，计划在 V 1.0 时达到生产可用状态。
+-----
+home_content_aii
+对于希望获得更多底层控制的开发者，可通过以下方式手动管理内存：
+-----
+home_content_aij
+区域分配（Arena）可通过以下方式使用：
+-----
+home_content_aja
+V 的 autofree 演示。所有对象均在编译期间释放。使用 Ved 编辑器处理一个 8 MB 的文件，内存泄漏为 0：
+-----
+home_content_ajb
+YouTube 编译速度演示
+-----
+home_content_ajc
+C 代码转换
+-----
+home_content_ajd
+V 可以转换整个 C 项目，让你获得更高的安全性、更简洁的代码，以及通过模块实现的更快编译速度。
+-----
+home_content_aje
+已有一篇
+-----
+home_content_ajf
+博客文章/教程
+-----
+home_content_ajg
+介绍如何转换 DOOM。
+-----
+home_content_ajh
+C++ 到 V 的代码转换仍处于早期阶段。
+-----
+home_content_aji
+代码热重载
+-----
+home_content_ajj
+修改即刻生效，无需重新编译。
+-----
+home_content_baa
+你也无需在每次编译后重新恢复到正在处理的状态，因此能节省大量宝贵的开发时间。
+-----
+home_content_bab
+github.com/.../examples/hot_reload
+-----
+home_content_bac
+强大的图形库
+-----
+home_content_bad
+跨平台绘图库
+-----
+home_content_bae
+，使用 OpenGL/Metal/DirectX 11 渲染 2D 应用。
+-----
+home_content_baf
+另有一个正在开发中的 3D 引擎，目前已支持以下功能：
+-----
+home_content_bag
+加载带纹理的复杂 3D 对象
+-----
+home_content_bah
+摄像机（移动、环视）
+-----
+home_content_bai
+骨骼动画
+-----
+home_content_baj
+一个展示该图形库实际用法的简单示例是
+-----
+home_content_bba
+tetris.v
+-----
+home_content_bbb
+有关 3D 示例，请查看
+-----
+home_content_bbc
+这里
+-----
+home_content_bbd
+引擎截图
+-----
+home_content_bbe
+轻量、快速的跨平台 GUI 库
+-----
+home_content_bbf
+使用 V UI 构建原生界面应用。你再也不必为了快速开发跨平台应用而嵌入浏览器。
+-----
+home_content_bbg
+V 提供了一个采用自绘方式的 UI 模块，类似于 Qt 和 Flutter，同时尽可能贴近原生 GUI 工具包。
+-----
+home_content_bbh
+它提供类似 SwiftUI 和 React Native 的声明式 API，可运行于 Windows、Linux、macOS 和 Android。
+-----
+home_content_bbi
+即将推出：
+-----
+home_content_bbj
+类似 Delphi 的可视化编辑器，用于构建原生 GUI 应用
+-----
+home_content_bca
+iOS 支持
+-----
+home_content_bcb
+github.com/vlang/ui
+-----
+home_content_bcc
+Volt：使用 V 和 V UI 构建的 Slack/Discord 客户端，仅 3 MB：
+-----
+home_content_bcd
+截图 3
+-----
+home_content_bce
+轻松交叉编译
+-----
+home_content_bcf
+要交叉编译软件，只需运行
+-----
+home_content_bcg
+或
+-----
+home_content_bch
+。无需额外步骤，即使是 GUI 和图形应用也不例外！
+-----
+home_content_bci
+（目前只能在 macOS 上编译 macOS 软件。）
+-----
+home_content_bcj
+使用 macOS 版 V 构建 Windows 版 V，然后在 Windows 虚拟机中测试生成的 v.exe：
+-----
+home_content_bda
+轻松部署和管理依赖，随处运行
+-----
+home_content_bdb
+轻松部署和管理依赖
+-----
+home_content_bdc
+无论项目多大，要构建它都只需运行
+-----
+home_content_bdd
+无需构建环境、makefile、头文件、虚拟环境等。
+-----
+home_content_bde
+你会得到一个不依赖任何外部组件的独立二进制文件；只要进行了相应的交叉编译，就能在各个操作系统上运行。
+-----
+home_content_bdf
+除动态链接操作系统提供的系统库（libc）外，该二进制文件是自包含的。
+-----
+home_content_bdg
+要在 Linux 上生成完全静态链接的二进制文件，可以使用
+-----
+home_content_bdh
+通过 V 编写的集中式包管理器 vpm 安装新库，只需运行
+-----
+home_content_bdi
+随处运行
+-----
+home_content_bdj
+V 可以生成（人类可读的）C 代码，因此能充分利用 GCC 和 Clang 出色的平台支持与优化能力。(使用
+-----
+home_content_bea
+即可生成优化构建。)
+-----
+home_content_beb
+即使直接生成机器码的功能成熟后，生成 C 代码也将始终是一个可选方案。
+-----
+home_content_bec
+V 可以调用 C 代码，而任何支持 C 互操作的语言都可以调用 V 代码。
+-----
+home_content_bed
+REPL 与使用 V 编写的跨平台 Shell 脚本
+-----
+home_content_bee
+交互式解释器（REPL）
+-----
+home_content_bef
+使用 V 编写跨平台 Shell 脚本
+-----
+home_content_beg
+V 可以替代 Bash，用来编写部署脚本、构建脚本等。这样做的优势在于语言简洁、行为可预测，并且支持跨平台。“V 脚本”既能在类 Unix 系统上运行，也能在 Windows 上运行。
+-----
+home_content_beh
+了解更多 V 脚本信息
+-----
+home_content_bei
+使用 vfmt 统一代码格式与内置代码性能分析器
+-----
+home_content_bej
+使用 vfmt 统一代码格式
+-----
+home_content_bfa
+不必再争论代码风格。V 只有一种官方代码风格，由 vfmt 格式化工具统一执行。
+-----
+home_content_bfb
+所有 V 代码库都采用一致的风格，让阅读和修改其他开发者编写的代码更加轻松。
+-----
+home_content_bfc
+内置代码性能分析器
+-----
+home_content_bfd
+使用以下选项构建并运行程序：
+-----
+home_content_bfe
+即可获得所有函数调用的详细统计：调用次数、每次调用的平均耗时和调用总耗时。
+-----
+home_content_bff
+JavaScript 和 WASM 后端与自动文档生成
+-----
+home_content_bfg
+JavaScript 和 WASM 后端
+-----
+home_content_bfh
+V 程序可以转换为 JavaScript（开发中）：
+-----
+home_content_bfi
+JS 后端仍处于早期阶段。
+-----
+home_content_bfj
+V 程序也可以编译为 WASM（目前使用 Emscripten，但已计划提供原生 WASM 支持）。下面是编译为 WASM 的 V 编译器，通过将 V 程序转换为 JavaScript 来运行它们：
+-----
+home_content_bga
+v-wasm.vercel.app
+-----
+home_content_bgb
+一个使用 V 的图形后端编写并编译为 WASM 的游戏：
+-----
+home_content_bgc
+v2048
+-----
+home_content_bgd
+自动生成文档
+-----
+home_content_bge
+使用 vdoc，即可直接从模块源码即时生成文档，无需另行维护和更新独立的文档。
+-----
+home_content_bgf
+内置测试框架与友好的错误提示
+-----
+home_content_bgg
+内置测试框架
+-----
+home_content_bgh
+编写测试非常简单：只需让测试函数名以此开头：
+-----
+home_content_bgi
+友好的错误提示
+-----
+home_content_bgj
+实用的错误提示让学习语言和修复错误更加轻松：
+-----
+home_content_bha
+强大的内置 Web 框架 Veb
+-----
+home_content_bhb
+Veb 速度极快（基于曾在 TechEmpower 基准测试中名列前茅的 pico.v 构建），可编译为单个二进制文件（HTML 模板也会编译），并支持代码热重载（修改任意 .v/.html 文件后，浏览器中的网站就会自动更新）。
+-----
+home_content_bhc
+github.com/vlang/v/tree/master/vlib/veb
+-----
+home_content_bhd
+Gitly
+-----
+home_content_bhe
+是一个轻量、快速的 GitHub/GitLab 替代品，使用 V 和 Veb 构建。
+-----
+home_content_bhf
+85933714-B195Fe80-B8Da-11Ea-9Ddd-09Cadc2103E4
+-----
+home_content_bhg
+内置 ORM
+-----
+home_content_bhh
+让想法成为现实
+-----
+home_content_bhi
+用 V 构建。
+-----
+home_content_bhj
+探索生态系统 ↗
+-----
+home_content_bia
+V 编译器
+-----
+home_content_bib
+V 本身就是用 V 编写的。
+-----
+home_content_bic
+Volt
+-----
+home_content_bid
+面向 Slack、Skype、Matrix、Telegram、Twitch 等众多服务的原生桌面客户端。
+-----
+home_content_bie
+Vinix
+-----
+home_content_bif
+一个极简的开源操作系统，目前已能运行 Bash、GCC、V、g++ 和 GTK3。
+-----
+home_content_big
+Ved
+-----
+home_content_bih
+仅 1 MB 的开源编辑器，性能媲美 Sublime Text。
+-----
+home_content_bii
+Vox Browser
+-----
+home_content_bij
+一个仍处于早期阶段的 HTML+CSS 渲染器，渲染 Hacker News 等网站的速度已达 Chrome 的 20 倍，而内存占用仅为其四分之一。
+-----
+home_content_bja
+Volt.im 即时通信与社交平台
+-----
+home_content_bjb
+即将推出的 Discord 和 Telegram 开源替代方案，融合了两者的最佳功能，同时保持极速与轻量。
+-----
+home_content_bjc
+vsql
+-----
+home_content_bjd
+一个完全使用 V 编写、零依赖的单文件 SQL 数据库。
+-----
+home_content_bje
+用 V 实现的 coreutils
+-----
+home_content_bjf
+功能等同于 GNU coreutils 的工具集，100% 使用 V 编写。
+-----
+home_content_bjg
+C 到 V 代码转换器
+-----
+home_content_bjh
+该工具已能转换完整的原版 DOOM，并计划支持 C++。整个转换过程完全自动化，生成的代码便于阅读。
+-----
+home_content_bji
+V UI
+-----
+home_content_bjj
+跨平台界面控件工具包。
+-----
+home_content_caa
+开源、轻量、快速的 GitHub/GitLab 替代品。
+-----
+home_content_cab
+Gitly 截图
+-----
+home_content_cac
+Vorum
+-----
+home_content_cad
+目前它还是一个功能基础的论坛/博客软件，未来将成为功能完善、轻量的 Discourse 替代品。
+-----
+home_content_cae
+V 论坛基于 Vorum 运行。
+-----
+home_content_caf
+vgram
+-----
+home_content_cag
+适用于 Telegram Bot API 的机器人库。
+-----
+home_content_cah
+Awesome V
+-----
+home_content_cai
+精选的优秀 V 框架、库和软件列表
+-----
+home_content_caj
+V 张量库
+-----
+home_content_cba
+提供 n 维张量数据结构、完善的归约运算、逐元素运算和累积运算、可轻松传递给 C 库的数据结构，以及由 VSL 支持的强大线性代数运算。
+-----
+home_content_cbb
+V 科学计算库
+-----
+home_content_cbc
+包含多种不同模块的科学计算库。
+-----
+home_content_cbd
+Lilly
+-----
+home_content_cbe
+一个在终端中使用的类 Vim 编辑器
+-----
+home_content_cbf
+Lilly 截图
+-----
+home_content_cbg
+V GUI
+-----
+home_content_cbh
+一个面向 V 的即时模式 UI 框架。
+-----
+home_content_cbi
+V GUI 截图
+-----
+home_content_cbj
+你正在使用 V 构建产品或库吗？
+-----
+home_content_cca
+把它加入这份列表吧。
+-----
+home_content_ccb
+V 最新动态
+-----
+home_content_ccc
+始终向前。
+-----
+home_content_ccd
+上一则资讯
+-----
+home_content_cce
+下一则资讯
+-----
+home_content_ccf
+最新资讯与博客文章
+-----
+home_content_ccg
+V 1.0 路线图
+-----
+home_content_cch
+资讯
+-----
+home_content_cci
+2026 年 7 月 12 日
+-----
+home_content_ccj
+V 0.5.2 发布！
+-----
+home_content_cda
+2026 年 3 月 9 日
+-----
+home_content_cdb
+V 0.5.1 发布！
+-----
+home_content_cdc
+2025 年 12 月 31 日
+-----
+home_content_cdd
+V 0.5 发布！自 V 0.4 以来，累计完成了多达 3700 项修复！
+-----
+home_content_cde
+2025 年 9 月 19 日
+-----
+home_content_cdf
+V 0.4.12 发布！
+-----
+home_content_cdg
+2025 年 6 月 19 日
+-----
+home_content_cdh
+V 0.4.11 发布！
+-----
+home_content_cdi
+2025 年 3 月 20 日
+-----
+home_content_cdj
+V 0.4.10 发布！
+-----
+home_content_cea
+2024 年 12 月 22 日
+-----
+home_content_ceb
+V 0.4.9 发布！
+-----
+home_content_cec
+2024 年 9 月 28 日
+-----
+home_content_ced
+V 0.4.8 发布！
+-----
+home_content_cee
+2024 年 7 月 26 日
+-----
+home_content_cef
+V 0.4.7 发布！
+-----
+home_content_ceg
+2024 年 5 月 20 日
+-----
+home_content_ceh
+V 0.4.6 发布！
+-----
+home_content_cei
+2024 年 3 月 20 日
+-----
+home_content_cej
+V 0.4.5 发布！
+-----
+home_content_cfa
+2024 年 1 月 9 日
+-----
+home_content_cfb
+V 0.4.4 发布！
+-----
+home_content_cfc
+2023 年 11 月 11 日
+-----
+home_content_cfd
+V 0.4.3 发布！
+-----
+home_content_cfe
+2023 年 9 月 30 日
+-----
+home_content_cff
+V 0.4.2 发布！
+-----
+home_content_cfg
+2023 年 9 月 3 日
+-----
+home_content_cfh
+V 0.4.1 发布！
+-----
+home_content_cfi
+2023 年 7 月 1 日
+-----
+home_content_cfj
+V 0.4 发布！
+-----
+home_content_cga
+2023 年 6 月 29 日
+-----
+home_content_cgb
+V 0.3.5 发布！
+-----
+home_content_cgc
+2023 年 4 月 30 日
+-----
+home_content_cgd
+V 0.3.4 发布！
+-----
+home_content_cge
+2023 年 4 月 17 日
+-----
+home_content_cgf
+V 入门
+-----
+home_content_cgg
+2023 年 1 月 30 日
+-----
+home_content_cgh
+V 0.3.3 发布！
+-----
+home_content_cgi
+2022 年 10 月 31 日
+-----
+home_content_cgj
+V 0.3.2 发布！
+-----
+home_content_cha
+2022 年 8 月 31 日
+-----
+home_content_chb
+V 0.3.1 发布！
+-----
+home_content_chc
+2022 年 6 月 30 日
+-----
+home_content_chd
+V 0.3 发布！
+-----
+home_content_che
+2022 年 6 月 22 日
+-----
+home_content_chf
+C2V 发布！演示视频：
+-----
+home_content_chg
+将 DOOM 从 C 转换为 V，在不到一秒内完成构建并运行！
+-----
+home_content_chh
+2022 年 6 月 10 日
+-----
+home_content_chi
+V 已登上
+-----
+home_content_chj
+RedMonk 2022 年第一季度编程语言排行榜
+-----
+home_content_cia
+2022 年 6 月 9 日
+-----
+home_content_cib
+从今天起，使用 V 编译器构建的程序在默认情况下不再泄漏内存。
+-----
+home_content_cic
+2022 年 5 月 29 日
+-----
+home_content_cid
+已合并 7000 个拉取请求！
+-----
+home_content_cie
+为热爱创造的人而生
+-----
+home_content_cif
+与志同道合者同行。
+-----
+home_content_cig
+上一组评价
+-----
+home_content_cih
+下一组评价
+-----
+home_content_cii
+评价
+-----
+home_content_cij
+前几天我偶然发现了 V，随后用它做了几个个人项目。到目前为止，我真的很喜欢它。我用过很长时间的 Go，所以感觉特别熟悉。说起来，我昨晚还写了一个用于与 MeshCore 交互的模块。我已经很久没有在编程时这么开心了。
+-----
+home_content_cja
+CptnDuras
+-----
+home_content_cjb
+V 开发团队的工作非常出色。我从未见过一门语言发展得如此之快；我怀疑你们从不睡觉。希望 V 能始终保持简洁、清晰，并拥有光明的未来。感谢你们的辛勤付出。
+-----
+home_content_cjc
+BrunoVDR
+-----
+home_content_cjd
+我非常喜欢 V。它的语法抽象设计非常出色，让我很享受整个代码编写过程。与我在 2023 年试用时相比，V 已经进步了很多。今后我会积极使用它。
+-----
+home_content_cje
+Kris Tun
+-----
+home_content_cjf
+最让我惊讶的是，竟有这么多东西“直接就能用”。有了通道和闭包，为 C 函数实现异步回调变得轻而易举。谢谢你们！😄
+-----
+home_content_cjg
+Joel L.
+-----
+home_content_cjh
+V 是我遇到过语法最顺手的语言，因此很期待 1.0。
+-----
+home_content_cji
+hellolio
+-----
+home_content_cjj
+我编程已有约 30 年。多年前用过一些 C/C++、VB，还写过大量 Delphi 代码。之后使用 PHP/Ruby 超过 15 年，也用过 Bash 和 Python。最近出于一些原因，我想开始使用一门编译型语言，于是了解了 Rust、Go 和其他几门语言。几周前，我偶然发现了 V，它上手如此容易，令我非常惊讶。我真的很享受用 V 编程，感觉自己已经能高效地完成工作了，甚至开始考虑做一个小型的……
+-----
+home_content_daa
+FlibbyJibbit
+-----
+home_content_dab
+我很喜欢 V 的发展方向，一直在想这种语言什么时候会出现。
+-----
+home_content_dac
+pbarker
+-----
+home_content_dad
+V 太棒了。我喜欢它的这些方面：
+-----
+home_content_dae
+灵活的运算符重载（让语法直观易懂）
+-----
+home_content_daf
+直接编译成 C，而我很喜欢 C
+-----
+home_content_dag
+可以灵活选择是否使用垃圾回收
+-----
+home_content_dah
+Go 的并发模型
+-----
+home_content_dai
+visrut
+-----
+home_content_daj
+我有扎实的 Java 和 Go 背景，也一直在尝试 Rust。V 的可读性看起来非常出色。
+-----
+home_content_dba
+Hoss
+-----
+home_content_dbb
+V 简单得令人惊叹！
+-----
+home_content_dbc
+devsou.com
+-----
+home_content_dbd
+我靠写 C# 给儿子买尿布，但如今新建的每个项目我都用 V。因为每个 C# 项目一开始就有一堆繁文缛节，而使用 V 时，我不必在起步阶段处理这些，可以在项目开发过程中按需逐步引入。
+-----
+home_content_dbe
+André L.
+-----
+home_content_dbf
+用它编程真是太爽了！
+-----
+home_content_dbg
+mrw
+-----
+home_content_dbh
+不得不说，V 的语法很棒（对我而言，尤其是错误处理方面；我非常不喜欢 Go 的错误处理方式，但喜欢它的其他方面）。
+-----
+home_content_dbi
+Teddy
+-----
+home_content_dbj
+用过 V 之后再用 C 开发内核，就会遇到更多 bug。说实话，很大程度上是因为 V 能发现一些 C 根本发现不了的 bug 和内存泄漏。
+-----
+home_content_dca
+mint，Vinix 维护者
+-----
+home_content_dcb
+只是想说，谢谢你们持续改进这门语言。加入 GC 是个很棒的决定，V 已成为我最喜爱的语言。出色的语法和工具让使用 V 充满乐趣，而在尝试理解底层工作原理的过程中，你也会成为更好的开发者。
+-----
+home_content_dcc
+laotzu
+-----
+home_content_dcd
+想向每一位 V 贡献者说声谢谢！2023 年 9 月之前，由于手头的工具不够理想，我从未真正写过代码，也没有完成过任何项目。9 月我开始学习 V，如今已经做出了一个很不错的原型，甚至有专业开发者主动联系我，说我的代码写得很好！所以我想感谢 V 以及所有贡献者 🥰
+-----
+home_content_dce
+Sh.a D'eau
+-----
+home_content_dcf
+显然，Alex 将他使用其他许多语言的经验带到了 V，为这门语言打下了十分扎实的基础。很难列出所有我喜欢的 V 的优点，因为我肯定会漏掉一些。不过我还是试着列一下。
+-----
+home_content_dcg
+编译速度
+-----
+home_content_dch
+简洁（只有少量关键字），却功能强大
+-----
+home_content_dci
+可读性与可维护性
+-----
+home_content_dcj
+运行性能
+-----
+home_content_dda
+交叉编译……
+-----
+home_content_ddb
+InspColumbo
+-----
+home_content_ddc
+感谢所有为这个项目作出贡献的人。这门语言的简洁性与编译型特性，让它在适用的场景中成为首选。
+-----
+home_content_ddd
+TenTypekMatus
+-----
+home_content_dde
+V 是如此出色的一门语言，我认为你们还没有得到应有的认可。感谢你们投入的时间与精力。
+-----
+home_content_ddf
+mihaigalos
+-----
+home_content_ddg
+偶然遇见 V 时，我就觉得“就是它了”。
+-----
+home_content_ddh
+chris_debian
+-----
+home_content_ddi
+非常感谢每一位为 V 作出贡献的人！从我发现它至今已经过去 1.5 年。我很喜欢这个友善、乐于助人的社区、追求简洁的理念，以及许多其他方面。创建 HTTP 服务器如此简单，让我又惊又喜：只需几行代码，照着示例就能轻松处理请求。发自内心地感谢你们 ❤️
+-----
+home_content_ddj
+nopana
+-----
+home_content_dea
+V 是更好的 Go。我把 V 用于个人项目的生产环境，用起来真是一种享受。
+-----
+home_content_deb
+dovh49
+-----
+home_content_dec
+几年前做数据科学家时，我精通 Python。自从发现 V，我几乎完全不用 Python 了，现在再回头看 Python……简直糟透了。编程从未像现在这样有趣。
+-----
+home_content_ded
+rodabt
+-----
+home_content_dee
+V 真的令人印象深刻。在用 Go 开发多年后，V 带来了我喜爱的简洁，同时又提供真正的底层控制能力和极致速度——这正是我一直缺少的。我才刚刚开始，期待更深入地探索这项技术 ❤️
+-----
+home_content_def
+BadassBrah
+-----
+home_js_language_error
+无法切换语言。请重试。
+-----
+home_js_resume_demos
+恢复自动演示
+-----
+home_js_pause_demos
+暂停自动演示
+-----
+home_js_doom_video_title
+将 DOOM 从 C 转换为 V — 完整演示
+-----
+home_js_recording_label
+在 macOS 上重新构建 V 编译器的原始录屏
+-----
+home_js_english
+英语
+-----
+home_js_copied
+已复制 ✓
+-----
+home_js_copied_status
+已复制到剪贴板。
+-----
+home_js_select_copy
+选中并复制
+-----
+home_js_clipboard_error
+剪贴板不可用。代码已选中；请按 Command-C 或 Control-C 复制。
+-----
+home_index_agg
+用于设计应用界面的 V UI2 Studio 所见即所得编辑器
+-----
+home_index_agh
+原生 GUI · 所见即所得编辑器
+-----
+home_index_agi
+可视化设计。
+-----
+home_index_agj
+用 V 构建。
+-----
+home_index_aha
+V UI 是一个原生 UI 库，提供所见即所得编辑器，可先以可视化方式设计窗体，再用 V 构建。
+-----
+home_index_ahb
+了解 V UI ↗
+-----
+home_index_ahc
+V UI 可视化编辑器
